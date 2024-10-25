@@ -11,7 +11,7 @@ $\color{NavyBlue}{Chenyi\ Wu}$
 $\color{NavyBlue}{Yifei\ Li}$
 
 ## **_Research question:_**
-Analyzing the Socioeconomic and Demographic Determinants of Liquor Consumption in Iowa
+**Analyzing the Socioeconomic and Demographic Determinants of Liquor Consumption in Iowa**
 
 ## **_Decision Makers and the Decision to be Made:_**
 -  **Public health sector:** Studying the socioeconomic and demographic factors of alcohol consumption can help health departments formulate public health policies

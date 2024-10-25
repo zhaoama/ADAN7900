@@ -22,7 +22,7 @@ $\color{NavyBlue}{Yifei\ Li}$
 -  **American Community Survey (ACS) Data:** Contains county/city-level data onunemployment rates, income levels, education levels, and racial demographics. Thesewill be used to examine alcohol consumption patterns in relation to socioeconomicfactors.
 
 ## **_Tools and Methods:_**
--  **R and Python:** Processes missing values, performs descriptive statistical analyses, and allows for visualization of analysis results.
+-  **R and Python:** Process missing values, performs descriptive statistical analyses, and allows for visualization of analysis results.
 -  **Tableau:** Build interactive dashboards and visual charts showing alcohol consumption patterns and their relationship to socio-economic factors by county/city
 -  **GitHub:** Conduct team collaboration, data, results publishing and presentation
 

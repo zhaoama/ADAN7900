@@ -10,7 +10,7 @@ $\color{NavyBlue}{Chenyi\ Wu}$
 
 $\color{NavyBlue}{Yifei\ Li}$
 
-## **_Research question:_**
+## **_Research Question:_**
 **Analyzing the Socioeconomic and Demographic Determinants of Liquor Consumption in Iowa**
 
 ## **_Decision Makers and the Decision to be Made:_**

@@ -12,10 +12,12 @@ $\color{NavyBlue}{Yifei\ Li}$
 
 ## **_Research Question:_**
 **Analyzing the Socioeconomic and Demographic Determinants of Liquor Consumption in Iowa**
+-  **General Association:** Is there a significant relationship between alcohol consumption and factors such as unemployment rate, income, and education levels, in Iowa Counties/Cities?
+-  **Racial Group Difference:** How might alcohol consumption vary across racial groups in Iowa? Is there any unique link between certain racial groups with their alcohol consumption patterns under certain economic or educational conditions? 
 
 ## **_Decision Makers and the Decision to be Made:_**
--  **Public health sector:** Studying the socioeconomic and demographic factors of alcohol consumption can help health departments formulate public health policies
--  **Governments:** These analyses can help governments make more informed decisions on tax policies, retail licenses, and urban planning.
+-  **Public health sector:** Studying the socioeconomic and demographic factors of alcohol consumption can help health departments formulate public health policies, alcohol abuse prevention, and intervention policies.
+-  **Governments:** These analyses can help governments make more informed decisions on tax policies, alcohol retail licenses, and urban planning.
 
 ## **_Data Set:_**
 -  **Iowa Liquor Sales:** Collected by the Iowa Department of Revenue, this dataset includes alcohol sales data from January 1, 2012, categorized by product type, date of purchase, alcohol type, and store location.

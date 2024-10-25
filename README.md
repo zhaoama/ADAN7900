@@ -1,6 +1,6 @@
 # ADAN-ADEC7900 Course Project: Group 4
 
-## **_Group 4 members:_** 
+## **_Group 4 Members:_** 
 
 $\color{NavyBlue}{Yuhan\ Zhao}$
 

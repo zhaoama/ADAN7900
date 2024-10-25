@@ -1,4 +1,4 @@
-# ADAN-ADEC7900-Course-Project---Group-4
+# ADAN-ADEC7900 Course Project: Group 4
 
 ## **_Group 4 members:_** 
 

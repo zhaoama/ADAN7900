@@ -26,3 +26,8 @@ $\color{NavyBlue}{Yifei\ Li}$
 7. Summmarize your findings in a short video presentation
 
 8. Publish a detailed, well formatted markdown report of your analytical story to your GitHub reposity.
+
+## Challenges and victories of collaborating on GitHub.
+
+
+## Report the individual contributions of each team member. The latest working files should be pushed to the GitHub Repository.

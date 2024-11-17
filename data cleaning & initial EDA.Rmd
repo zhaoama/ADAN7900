@@ -1,0 +1,185 @@
+---
+title: "Data Cleaning & EDA"
+output: html_document
+date: "2024-11-15"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# remove objects
+rm(list = ls())
+
+# Library packages
+library(tidyverse)
+library(dplyr)
+library(kableExtra)
+library(psych)
+```
+
+# Data Cleaning
+
+```{r}
+# Read the data
+sales.zipcodes <- read.csv("project.sales.zipcodes.csv")
+sales.cities <- read.csv("project.sales.cities.csv")
+sales.counties <- read.csv("project.sales.counties.csv")
+
+acs.zipcodes <- read.csv("project.acs.zipcodes.csv")
+acs.cities <- read.csv("project.acs.cities.csv")
+acs.counties <- read.csv("project.acs.counties.csv")
+```
+
+```{r}
+# Merge data for country, city and zipcode levels
+counties_data <- sales.counties %>%
+  left_join(acs.counties, by = "county") %>%
+  # Convert 'county' and 'category' to factors
+  mutate(across(c(county, category), as.factor))
+  
+cities_data <- sales.cities %>%
+  left_join(acs.cities, by = "city") %>%
+  # Convert 'city' and 'category' to factors
+  mutate(across(c(city, category), as.factor))
+
+zipcodes_data <- sales.zipcodes %>%
+  left_join(acs.zipcodes, by = "zipcode") %>%
+  # Convert 'zipcode' and 'category' to factors
+  mutate(across(c(zipcode, category), as.factor))
+```
+
+
+```{r}
+# Define function to check for missing values
+missing_check <- function(data){
+  missing_count = data %>%
+    summarise(across(everything(), ~ sum(is.na(.))))
+  print(missing_count)
+}
+
+# Find count of missing values
+missing_check(counties_data)
+missing_check(cities_data)
+missing_check(zipcodes_data)
+
+# Check where is the missings
+counties_data %>%
+  filter(is.na(high.school)) %>%  
+  count(county)   
+
+cities_data %>%
+  filter(is.na(high.school)) %>%  
+  count(city)
+
+zipcodes_data %>%
+  filter(is.na(high.school)) %>%  
+  count(zipcode)
+```
+
+  - It shows that only County of Obrien data is missing.  
+
+  - Correspondingly, Obrien's all cities (Jewell, Mc Gregor, Saint Ansgar, Saint Charles, and Saint Lucas) data were also missing. 
+
+  - However, three zipcodes of 52004 (Monroe County, Albia),  52036 (Plymouth County, Dike) and 52733 (Muscatine County, Dorchester)
+  
+  
+```{r}
+# Remove missing values
+counties_data.clean <- na.omit(counties_data)
+cities_data.clean <- na.omit(cities_data)
+zipcodes_data.clean <- na.omit(zipcodes_data)
+```
+
+
+```{r}
+# Define function to generate, income_per_capita, prop_white and prop_black
+add_indicator <-function(data){
+  data <- data %>%
+    mutate(income_per_capita = income/population,
+           prop_white = pop.white / population * 100,
+           prop_black = pop.black / population * 100)
+  return(data)
+}
+
+# Add variables into the three dataset
+counties_data.clean <- add_indicator(counties_data.clean)
+cities_data.clean <- add_indicator(cities_data.clean)
+zipcodes_data.clean <- add_indicator(zipcodes_data.clean )
+
+
+```
+
+```{r}
+colnames(counties_data.clean)
+```
+
+
+# Initial EDA
+
+```{r}
+# Define function to get means
+mean_stat <- function(data){
+  data %>%
+    group_by(category) %>%
+    summarise(mean_sale = mean(sale.dollars), 
+              mean_vloume = mean(sale.volume), 
+              median_sale = median(sale.dollars), 
+              median_vloume = median(sale.volume), ) %>%
+    kable(digit = 2)
+}
+
+# Descriptive statistic for sales in county level
+mean_stat(counties_data.clean)
+mean_stat(cities_data.clean)
+mean_stat(zipcodes_data.clean)
+```
+
+```{r}
+# Define function to get total sale, volume and price in counties, cities and zipcodes level
+add_indicator.2  <- function(data, level){
+  data %>%
+    group_by({{ level }}) %>% 
+    mutate(
+      total.sale = sum(sale.dollars), 
+      total.volume = sum(sale.volume)  
+    ) %>%
+    select(-c(category, sale.dollars, sale.volume)) %>%  
+    distinct()  %>%
+    mutate(price = total.sale / total.volume) %>%
+    as.data.frame()
+}
+
+# For counties, cities and zipcodes data, apply the function
+counties_data.clean.2 <- add_indicator.2 (counties_data.clean, county)
+cities_data.clean.2 <- add_indicator.2 (cities_data.clean, city)
+zipcodes_data.clean.2 <- add_indicator.2 (zipcodes_data.clean, zipcode)
+```
+
+
+```{r}
+# Summary statistic analysis
+desc_fun <- function(data){
+  desc_table = data %>%
+    select(c(2:6, 14:19)) %>%
+    describe() %>%
+    select(mean, median, sd, min, max, 
+           range, skew, kurtosis) %>%
+    kable(digits = 2)
+  return(desc_table)
+}
+
+# Descriptive for county data
+desc_fun(counties_data.clean.2)
+
+# Descriptive for cities data
+desc_fun(cities_data.clean.2)
+
+# Descriptive for zipcode data
+desc_fun(zipcodes_data.clean.2)
+```
+
+
+  - data.clean contains detailed information for each individual wine category.
+  
+  - data.clean.2 aggregates total sales and volume across all categories, providing summarized data for each county, city, and zipcode.
+

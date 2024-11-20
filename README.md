@@ -51,7 +51,7 @@ Use KPIs to highlight significant trends and relationships within the data.
   Commit history and GitHub issues provide a clear log of what's been done and what needs attention. We believed that by viewing closed issues to see all tasks accomplished during the project lifecycle is very important. Using GitHub helps assign, prioritize, and track tasks effectively. Each team member knows what they need to work on, and deadlines are visible to everyone, and every task is transparent to everyone. Every contribution is tracked, ensuring accountability and fostering team ownership of the work. The commit history shows who added a feature or fixed a bug, making troubleshooting easier. GitHub is also a optimal place to put all our sources together, like datasets and R RMD files. 
 
 ## Report the individual contributions of each team member. The latest working files should be pushed to the GitHub Repository.
--  Jinglei Chen
+-  Jinglei Chen: Contributed to brainstorm of analysis and graphing plan. Will be doing the map exploring patterns in sales & geographic features in Tableau. 
 -  Yifei Li
 -  Chenyi Wu: star the dataset cleaning and basic statistics
 -  Yuhan Zhao: performing graph method for correlation heat map for target variable and factor variables, working on the analysis for the dataset

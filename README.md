@@ -52,6 +52,6 @@ Use KPIs to highlight significant trends and relationships within the data.
 
 ## Report the individual contributions of each team member. The latest working files should be pushed to the GitHub Repository.
 -  Jinglei Chen: Contributed to brainstorm of analysis and graphing plan. Will be doing the map exploring patterns in sales & geographic features in Tableau. 
--  Yifei Li
+-  Yifei Li: Conducted a preliminary analysis of sales and sales volume in relation to type of wine and city. Also produced scatter plots and fit lines of the relationship of salesvolume to unemployment, income, and educational levels. The results can be found in “Yifei's Analyze”.
 -  Chenyi Wu: star the dataset cleaning and basic statistics
 -  Yuhan Zhao: performing graph method for correlation heat map for target variable and factor variables, working on the analysis for the dataset

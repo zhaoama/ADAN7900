@@ -49,9 +49,11 @@ Use KPIs to highlight significant trends and relationships within the data.
 **Prioritize allocation of funds:**
 -  Prioritize the allocation of funds to cities with high unemployment rates and significant alcohol consumption, especially in areas where low-income populations are concentrated.
 -  Create scholarships or vocational education funds to help raise the educational level of low-education city residents.
+
 **Targeted tax policies:**
 -  Increase alcohol taxes in high-consumption areas while providing subsidies for community development (e.g., improving job training centers or educational infrastructure).
 -  Propose a “specific purpose excise tax” model that identifies alcohol tax revenues to support socio-economic issues.
+
 **Promote healthy lifestyles:**
 -  Promote city-level community wellness programs, including free exercise spaces and mental health support services, as an alternative to high alcohol consumption recreational habits.
 

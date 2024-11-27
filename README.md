@@ -64,5 +64,6 @@ Use KPIs to highlight significant trends and relationships within the data.
 
 ## Report the individual contributions of each team member. 
 **Jinglei Chen:** Jinglei created a map of alcohol sales across Iowa cities, by using wine category as a filter. Her next step is to create a map that can plot sum alcohol sales (in colors & sizes) across Iowa cities, by switching between each racial group (seeking advice from Prof.)
+
 **Yifei Li:** Yifei created scatterplot of the trivariate relationship between race, education and alcohol consumption. Result can be found in "Yifei's Analysis 2"
 **Yuhan Zhao：** 

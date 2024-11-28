@@ -1,4 +1,4 @@
-# ADAN-ADEC7900 Course Project: Group 4
+# ADAN-ADEC7900 Course Project: Group 4- `Checkpoint 2`
 
 ## **_Group 4 Members:_** 
 

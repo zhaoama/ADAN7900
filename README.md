@@ -10,14 +10,13 @@ $\color{NavyBlue}{Chenyi\ Wu}$
 
 $\color{NavyBlue}{Yifei\ Li}$
 
-## **_Research Question:_**
-**Analyzing the Socioeconomic and Demographic Determinants of Liquor Consumption in Iowa**
--  **General Association:** Is there a significant relationship between alcohol consumption and factors such as unemployment rate, income, and education levels, in Iowa cities?
--  **Racial Group Difference:** How might alcohol consumption vary across racial groups in Iowa? Is there any unique link between certain racial groups with their alcohol consumption patterns under certain economic or educational conditions? 
+## **Introduction** ##
+Liquor consumption patterns are influenced by a variety of socioeconomic and demographic factors, making it important to analyze these factors for effective public health and government policy development. The purpose of this study is to analyze the socioeconomic and demographic determinants of liquor consumption in Iowa, with a focus on two research questions:
+-  Is there a significant relationship between alcohol consumption and factors such as unemployment rate, income, and education levels, in Iowa cities?
+-  How might alcohol consumption vary across racial groups in Iowa? Is there any unique link between certain racial groups with their alcohol consumption patterns under certain economic or educational conditions?
+The results of the study will provide practical insights for public health agencies and governments. For public health agencies, the findings will help design targeted prevention and intervention plans to reduce alcohol-related health problems and societal costs. For government agencies, results will provide evidence-based support for alcohol tax, retail licensing, and urban planning policy development, ensuring that policies match the realities of Iowa's diverse communities.
+We use R, Python for data analysis and Tableau for visualization. We believe that R and Python can support our data analysis, and Tableau provides great visualization functions. 
 
-## **_Decision Makers and the Decision to be Made:_**
--  **Public health sector:** Studying the socioeconomic and demographic factors of alcohol consumption can help health departments formulate public health policies, alcohol abuse prevention, and intervention policies.
--  **Governments:** These analyses can help governments make more informed decisions on tax policies, alcohol retail licenses, and urban planning.
 
 ## **_Data Set:_**
 -  **Iowa Liquor Sales:** Collected by the Iowa Department of Revenue, this dataset includes alcohol sales data from January 1, 2012, categorized by product type, date of purchase, alcohol type, and store location.

@@ -46,7 +46,7 @@ This figure shows the proportions of specific alcohol categories in the Top 10 c
 This figure shows the relationship between income, price per unit of alcohol, high school education level, and bachelor's degree. The graph shows that as income increases, the price per unit of alcohol consumed also increases slightly, suggesting that higher-income areas and populations may tend to purchase more expensive alcohol products. In addition, higher levels of high school education (in red) appear to be associated with higher incomes, suggesting that education level may influence income and alcohol consumption patterns to some extent. The different shapes of the markers indicate different proportions of bachelor's degrees, further suggesting that education level may have an impact on consumption choices. Overall, areas with higher incomes and higher levels of education tended to consume alcohol with a higher unit price, while areas with lower incomes and lower levels of education tended to choose alcohol with a lower price.
 
 
-### ### Alcohol consumption and Race in Iowa Cities
+### Alcohol consumption and Race in Iowa Cities
 ![Per_Capita_Sales_Race](images/Per_Capita_Sales_Race.jpg)
 
 This figure shows the per capita consumption of alcohol among different races. It can be seen that Blacks and Asians are the highest per capita alcohol consumption groups, while Whites are the lowest per capita alcohol consumption group. This may have something to do with the racial percentage of each city, work environment, and stress, group habits, etc.

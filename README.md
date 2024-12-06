@@ -16,7 +16,7 @@ Liquor consumption patterns are influenced by a variety of socioeconomic and dem
 -  How might alcohol consumption vary across racial groups in Iowa? Is there any unique link between certain racial groups with their alcohol consumption patterns under certain economic or educational conditions?
 
 The results of the study will provide practical insights for public health agencies and governments. For public health agencies, the findings will help design targeted prevention and intervention plans to reduce alcohol-related health problems and societal costs. For government agencies, results will provide evidence-based support for alcohol tax, retail licensing, and urban planning policy development, ensuring that policies match the realities of Iowa's diverse communities.
-We use R, Python for data analysis and Tableau for visualization. We believe that R and Python can support our data analysis, and Tableau provides great visualization functions. 
+We use R, Python for data analysis and Tableau for visualization. We believe that R and Python can support our data analysis by processing missing values, performing descriptive statistical analyses, and allowing for visualization of analysis results. And Tableau can help to build interactive dashboards and visual charts showing alcohol consumption patterns and their relationship to socio-economic factors by county/city. Also, we use Github to conduct team collaboration, data, results publishing and presentation.
 
 
 ## **Data Summary**
@@ -33,10 +33,4 @@ We use R, Python for data analysis and Tableau for visualization. We believe tha
 ## **Policy Recommendation**
 
 
-
-
-## **_Tools and Methods:_**
--  **R and Python:** Process missing values, performs descriptive statistical analyses, and allows for visualization of analysis results.
--  **Tableau:** Build interactive dashboards and visual charts showing alcohol consumption patterns and their relationship to socio-economic factors by county/city
--  **GitHub:** Conduct team collaboration, data, results publishing and presentation
 

@@ -26,7 +26,7 @@ We use R, Python for data analysis and Tableau for visualization. We believe tha
 
 ## **Data Analytics**
 ### Alcohol consumption and factors in Iowa cities
-![TopCategory](images/TopCategory.jpg)
+![TopCategory](images/Top_Category.jpg)
 
 
 ## **Conclusion**

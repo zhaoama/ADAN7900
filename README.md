@@ -47,7 +47,7 @@ The raw data was then aggregated using a custom function. This function calculat
 
 ### Descriptive statistics for liquor category sales in zipcode level
 <div align="center">
-  <img src="images/Table_3_sales_city.png" alt="Table3" width="70%" height="70%" />
+  <img src="images/Table_3_sales_zipcode.png" alt="Table3" width="70%" height="70%" />
 </div>
 
 `Table 3` focuses on the data at the zip code level, which is the most detailed analysis perspective. At this level, the average and median sales of each category are lower than the city and county data. At the same time, the median sales of each category are significantly lower than the average, which also indicates that the distribution is right-skewed.

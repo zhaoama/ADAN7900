@@ -23,16 +23,28 @@ We use R, Python for data analysis and Tableau for visualization. We believe tha
 -  **Iowa Liquor Sales:** Collected by the Iowa Department of Revenue, this dataset includes alcohol sales data from January 1, 2012, categorized by product type, date of purchase, alcohol type, and store location.
 -  **American Community Survey (ACS) Data:** Contains city-level data onunemployment rates, income levels, education levels, and racial demographics. Thesewill be used to examine alcohol consumption patterns in relation to socioeconomicfactors.
 
+The dataset includes detailed sales information, such as average sales and sales volume for various liquor categories, as well as socioeconomic indicators such as income, education level, demographics, and unemployment. These features enable multidimensional analysis of alcohol sales patterns, and analysis can include both sales performance and potential demographic drivers of liquor consumption.
+
+### Data Cleaning
+
 Data cleaning began by loading sales data and merging it with ACS demographic and economic data at the county, city, and zip code levels. Then Missing values ​​were examined for each data and this issue was addressed by removing incomplete rows. Additional variables such as per capita income and racial ratio (white to black) were added to the dataset to further enrich the analysis.
 
 The raw data was then aggregated using a custom function. This function calculated total sales (`total.sale`) and total volume (`total.volume`) for each geographic level and used this to determine an average price (`price`), which is the ratio of total sales to total volume. This aggregation provided a overall view for subsequent analysis by removing detailed data for specific liquor categories. The resulting county, city, and zip code level datasets present simplified and aggregated liquor sales patterns while retaining key demographic and economic variables.
 
-## Exploratory Data Analysis
-
 ### Descriptive statistics for liquor category sales in coutry level
 <div align="center">
-  <img src="images/Table_1_sales_coutry.png" alt="Table1" width="80%" height="80%" />
+  <img src="images/Table_1_sales_coutry.png" alt="Table1" width="70%" height="70%" />
 </div>
+
+`Table 1` summarizes the liquor category sales at the county level, showing that **Whiskey had the highest average sales** (average sales: $935,023.49), followed by Vodka (average sales: $639,320.56) and Rum (average sales: $360,727.07). Categories such as Amaretto and Distilled Spirits have significantly lower average and median sales, indicating a smaller consumer base. The median is often lower than the mean for each category, and this implies outliers or counties with significantly higher sales. 
+
+### Descriptive statistics for liquor category sales in city level
+<div align="center">
+  <img src="images/Table_1_sales_city.png" alt="Table2" width="70%" height="70%" />
+</div>
+
+
+
 
 
 

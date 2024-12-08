@@ -79,6 +79,14 @@ Similaryly, the distribution of economic and demographic characteristics at the 
 
 ## Data Analysis
 
+### Initial Correlation Analysis for Aggregated Sales data at city level
+<div align="center">
+  <img src="images/pairs_plot.png" width="90%" height="90%" />
+</div>
+
+
+
+
 ### Alcohol consumption and Factors in Iowa Cities
 ![TopCategory](images/Top_Category.jpg)
 

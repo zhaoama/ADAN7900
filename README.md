@@ -30,6 +30,7 @@ The raw data was then aggregated using a custom function. This function calculat
 ## Exploratory Data Analysis
 
 ### Descriptive statistics for liquor category sales in coutry level
+<img src="images/Table_1_sales_coutry.png" alt="Table1" width="80%" height="80%" />
 ![Table1](images/Table_1_sales_coutry.png)
 
 

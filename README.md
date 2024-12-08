@@ -64,7 +64,7 @@ At the county level, an average percentage of 91.11% of the population has a hig
 
 #### Aggregated sales in city level
 <div align="center">
-  <img src="images/Table_5_aggregated_sale_city.png" alt="Table4" width="90%" height="90%" />
+  <img src="images/Table_5_aggregated_sale_city.png" alt="Table4" width="80%" height="80%" />
 </div>
 
 The distribution of economic and demographic characteristics at the city level is similar to that at the county level. However, due to the smaller geographical area, the sales volume and quantity of alcohol at the city level are significantly lower than those at the county level.

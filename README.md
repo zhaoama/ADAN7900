@@ -80,9 +80,7 @@ Similaryly, the distribution of economic and demographic characteristics at the 
 ## Data Analysis
 
 ### Initial Correlation Analysis for Aggregated Sales data at city level
-<div align="center">
-  <img src="images/pairs_scatter_plot.png" alt="Scatter" width="90%" height="90%" />
-</div>
+![Scatter](images/pairs_scatter_plot.jpg)
 
 
 

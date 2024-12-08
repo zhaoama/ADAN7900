@@ -105,13 +105,13 @@ This figure shows the relationship between income, price per unit of alcohol, hi
 
 This figure shows the per capita consumption of alcohol among different races. It can be seen that Blacks and Asians are the highest per capita alcohol consumption groups, while Whites are the lowest per capita alcohol consumption group. This may have something to do with the racial percentage of each city, work environment, and stress, group habits, etc.
 
-![Per_Capita_Income_Race](images/Per_Capita_Income_Race.jpg)
+![Per_Capita_Income_Race](images/Per_capita_IncomeRace.jpg)
 
-This figure shows the per capita income among different races. It can be seen that whites have the highest per capita income at over $5,000. in contrast, blacks and Asians have the lowest at around $1,000. Combined with the per capita consumption of alcohol, it can be assumed that alcohol consumption is related to income, and a possible explanation is that low income and high stress in life lead to increased alcohol consumption. Based on the results of this analysis, policy decisions that can be made by the government may be to create more income opportunities for Blacks and Asians, provide them with psychological counseling, etc.
+This figure shows a comparison of the per capita income of different racial groups in Iowa.The White group has the highest per capita income at $30,417.However, overall, there is not a great deal of difference in income between the races. Therefore, it can be assumed that alcohol consumption by race has little correlation with income.
 
 ![Alcohol_Consumption_Bachelor_Group](images/Alcohol_Consumption_Bachelor_Group.jpg)
 
-This figure shows the relationship between income, education level (percentage of bachelor's degree) and alcohol consumption for different racial groups. Overall, groups with higher incomes and higher levels of education (indicated by the red dots) are more likely to have higher alcohol consumption, but this trend is not absolute; there are small peaks in consumption among lower-income groups, mostly Asians and Blacks, which is consistent with the conclusions of the per capita consumption graph and the per capita income graph. The racial breakdown shows a wider distribution of consumption among Whites, while other races such as Blacks and Asians are concentrated in the low to middle range, perhaps due to income profiles. Overall, most consumption is concentrated in the lower range of income and consumption, which may reflect the positive impact of income and education levels on alcohol consumption.
+This figure shows the relationship between income, education level (percentage of bachelor's degree) and alcohol consumption for different racial groups. Overall, groups with higher incomes and higher levels of education (indicated by the red dots) are more likely to have higher alcohol consumption, but this trend is not absolute; there are small peaks in consumption among lower-income groups, mostly Asians and Blacks, which is consistent with the conclusions of the per capita consumption graph. 
 
 
 ## **Conclusion**

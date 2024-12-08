@@ -31,21 +31,23 @@ Data cleaning began by loading sales data and merging it with ACS demographic an
 
 The raw data was then aggregated using a custom function. This function calculated total sales (`total.sale`) and total volume (`total.volume`) for each geographic level and used this to determine an average price (`price`), which is the ratio of total sales to total volume. This aggregation provided a overall view for subsequent analysis by removing detailed data for specific liquor categories. The resulting county, city, and zip code level datasets present simplified and aggregated liquor sales patterns while retaining key demographic and economic variables.
 
-### Descriptive statistics for liquor category sales in coutry level
+### Descriptive statistics analysis
+
+#### Liquor category sales in coutry level
 <div align="center">
   <img src="images/Table_1_sales_coutry.png" alt="Table1" width="70%" height="70%" />
 </div>
 
 `Table 1` summarizes the liquor category sales at the county level, showing that **Whiskey had the highest average sales** (average sales: $935,023.49), followed by Vodka (average sales: $639,320.56) and Rum (average sales: $360,727.07). Categories such as Amaretto and Distilled Spirits have significantly lower average and median sales, indicating a smaller consumer base. The median is often lower than the mean for each category, and this implies outliers or counties with significantly higher sales. 
 
-### Descriptive statistics for liquor category sales in city level
+#### Liquor category sales in city level
 <div align="center">
   <img src="images/Table_2_sales_city.png" alt="Table2" width="70%" height="70%" />
 </div>
 
 `Table 2` shows the results of the city-level analysis. Compared with the county-level data, the average and median sales of each category at this level are significantly lower, reflecting the impact of the narrowing of the analysis scope. Although whiskey and vodka are still the two categories with the highest sales, their sales at the city level are significantly lower than at the county level. Overall, Table 2 showed a more refined analysis analysis and provided a strong basis for in-depth exploration of alcohol consumption trends at the city level.
 
-### Descriptive statistics for liquor category sales in zipcode level
+#### Liquor category sales in zipcode level
 <div align="center">
   <img src="images/Table_3_sales_zipcode.png" alt="Table3" width="70%" height="70%" />
 </div>
@@ -53,21 +55,21 @@ The raw data was then aggregated using a custom function. This function calculat
 `Table 3` focuses on the data at the zip code level, which is the most detailed analysis perspective. At this level, the average and median sales of each category are lower than the city and county data. At the same time, the median sales of each category are significantly lower than the average, which also indicates that the distribution is right-skewed.
 
 
-### Descriptive statistics for aggregated sales in coutry level
+#### Aggregated sales in coutry level
 <div align="center">
   <img src="images/Table_4_aggregated_sale_coutry.png" alt="Table4" width="90%" height="90%" />
 </div>
 At the county level, an average percentage of 91.11% of the population has a high school education, and 20.77% have a bachelor's degree. Populations vary widely, with a large standard deviation (56,233.64). Total sales and total volume sold are highly skewed (skewness > 5), indicating that a few counties dominate alcohol sales. The price per unit of alcohol varies little (mean = $13.34, standard deviation = 1.02), indicating that pricing is consistent across counties.
 
 
-### Descriptive statistics for aggregated sales in city level
+#### Aggregated sales in city level
 <div align="center">
   <img src="images/Table_5_aggregated_sale_city.png" alt="Table4" width="90%" height="90%" />
 </div>
 
 The distribution of economic and demographic characteristics at the city level is similar to that at the county level. However, due to the smaller geographical area, the sales volume and quantity of alcohol at the city level are significantly lower than those at the county level.
 
-### Descriptive statistics for aggregated sales in zipcode level
+#### Aggregated sales in zipcode level
 <div align="center">
   <img src="images/Table_6_aggregated_sale_zipcode.png" alt="Table6" width="90%" height="90%" />
 </div>
@@ -75,7 +77,7 @@ The distribution of economic and demographic characteristics at the city level i
 Similaryly, the distribution of economic and demographic characteristics at the zipcode level is also similar to that at the city level. And the sales volume and quantity of alcohol at the zipcode level are significantly lower than those at the city level.
 
 
-
+## Data Analysis
 
 ### Alcohol consumption and Factors in Iowa Cities
 ![TopCategory](images/Top_Category.jpg)

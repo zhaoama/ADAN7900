@@ -19,9 +19,18 @@ The results of the study will provide practical insights for public health agenc
 We use R, Python for data analysis and Tableau for visualization. We believe that R and Python can support our data analysis by processing missing values, performing descriptive statistical analyses, and allowing for visualization of analysis results. And Tableau can help to build interactive dashboards and visual charts showing alcohol consumption patterns and their relationship to socio-economic factors by county/city. Also, we use Github to conduct team collaboration, data, results publishing and presentation.
 
 
-## **Data Summary**
+## **Data Summary & Data Cleaning**
 -  **Iowa Liquor Sales:** Collected by the Iowa Department of Revenue, this dataset includes alcohol sales data from January 1, 2012, categorized by product type, date of purchase, alcohol type, and store location.
 -  **American Community Survey (ACS) Data:** Contains city-level data onunemployment rates, income levels, education levels, and racial demographics. Thesewill be used to examine alcohol consumption patterns in relation to socioeconomicfactors.
+
+Data cleaning began by loading sales data and merging it with ACS demographic and economic data at the county, city, and zip code levels. Then Missing values ​​were examined for each data and this issue was addressed by removing incomplete rows. Additional variables such as per capita income and racial ratio (white to black) were added to the dataset to further enrich the analysis.
+
+The raw data was then aggregated using a custom function. This function calculated total sales (`total.sale`) and total volume (`total.volume`) for each geographic level and used this to determine an average price (`price`), which is the ratio of total sales to total volume. This aggregation provided a overall view for subsequent analysis by removing detailed data for specific liquor categories. The resulting county, city, and zip code level datasets present simplified and aggregated liquor sales patterns while retaining key demographic and economic variables.
+
+## Exploratory Data Analysis
+
+### Descriptive statistics for liquor category sales in coutry level
+![desc_stat_unagg_county](images/Table 1 (Descriptive statistics for liquor category sales in coutry level).png)
 
 
 ## **Data Analytics**

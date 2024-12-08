@@ -27,7 +27,7 @@ The dataset includes detailed sales information, such as average sales and sales
 
 ### Data Cleaning
 
-Data cleaning began by loading sales data and merging it with ACS demographic and economic data at the county, city, and zip code levels. Then Missing values ​​were examined for each data and this issue was addressed by removing incomplete rows. Additional variables such as per capita income and racial ratio (white to black) were added to the dataset to further enrich the analysis.
+Data cleaning began by loading sales data and merging it with ACS demographic and economic data at the county, city, and zip code levels. Then Missing values ​​were examined for each data and this issue was addressed by removing incomplete rows. Additional variables such and racial ratio (white to black) were added to the dataset to further enrich the analysis.
 
 The raw data was then aggregated using a custom function. This function calculated total sales (`total.sale`) and total volume (`total.volume`) for each geographic level and used this to determine an average price (`price`), which is the ratio of total sales to total volume. This aggregation provided a overall view for subsequent analysis by removing detailed data for specific liquor categories. The resulting county, city, and zip code level datasets present simplified and aggregated liquor sales patterns while retaining key demographic and economic variables.
 
@@ -43,12 +43,42 @@ The raw data was then aggregated using a custom function. This function calculat
   <img src="images/Table_2_sales_city.png" alt="Table2" width="70%" height="70%" />
 </div>
 
+`Table 2` shows the results of the city-level analysis. Compared with the county-level data, the average and median sales of each category at this level are significantly lower, reflecting the impact of the narrowing of the analysis scope. Although whiskey and vodka are still the two categories with the highest sales, their sales at the city level are significantly lower than at the county level. Overall, Table 2 showed a more refined analysis analysis and provided a strong basis for in-depth exploration of alcohol consumption trends at the city level.
 
+### Descriptive statistics for liquor category sales in zipcode level
+<div align="center">
+  <img src="images/Table_3_sales_city.png" alt="Table3" width="70%" height="70%" />
+</div>
 
-
+`Table 3` focuses on the data at the zip code level, which is the most detailed analysis perspective. At this level, the average and median sales of each category are lower than the city and county data. At the same time, the median sales of each category are significantly lower than the average, which also indicates that the distribution is right-skewed.
 
 
 ## **Data Analytics**
+
+### Initail Exploratory Data Analysis
+
+#### Descriptive statistics for aggregated sales in coutry level
+<div align="center">
+  <img src="images/Table_4_aggregated_sale_coutry.png" alt="Table4" width="70%" height="70%" />
+</div>
+At the county level, an average percentage of 91.11% of the population has a high school education, and 20.77% have a bachelor's degree. Populations vary widely, with a large standard deviation (56,233.64). Total sales and total volume sold are highly skewed (skewness > 5), indicating that a few counties dominate alcohol sales. The price per unit of alcohol varies little (mean = $13.34, standard deviation = 1.02), indicating that pricing is consistent across counties.
+
+
+#### Descriptive statistics for aggregated sales in city level
+<div align="center">
+  <img src="images/Table_4_aggregated_sale_coutry.png" alt="Table4" width="70%" height="70%" />
+</div>
+
+#### Descriptive statistics for aggregated sales in zipcode level
+<div align="center">
+  <img src="images/Table_4_aggregated_sale_coutry.png" alt="Table4" width="70%" height="70%" />
+</div>
+
+
+
+
+
+
 ### Alcohol consumption and Factors in Iowa Cities
 ![TopCategory](images/Top_Category.jpg)
 

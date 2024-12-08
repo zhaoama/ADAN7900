@@ -64,7 +64,7 @@ At the county level, an average percentage of 91.11% of the population has a hig
 
 #### Aggregated sales in city level
 <div align="center">
-  <img src="images/Table_5_aggregated_sale_city.png" alt="Table4" width="80%" height="80%" />
+  <img src="images/Table_5_aggregated_sale_city.png" alt="Table4" width="90%" height="90%" />
 </div>
 
 The distribution of economic and demographic characteristics at the city level is similar to that at the county level. However, due to the smaller geographical area, the sales volume and quantity of alcohol at the city level are significantly lower than those at the county level.
@@ -81,7 +81,7 @@ Similaryly, the distribution of economic and demographic characteristics at the 
 
 ### Initial Correlation Analysis for Aggregated Sales data at city level
 <div align="center">
-  <img src="images/pairs_scatter_plot.png" alt="Scatter" />
+  <img src="images/pairs_scatter_plot.png" alt="Scatter" width="90%" height="90%" />
 </div>
 
 The correlation coefficient between alcohol consumption and education level (bachelor's degree) is 0.25, indicating a positive correlation. The scatter plot also suggests that as the proportion of people with higher education increases, alcohol consumption may increase, although the relationship is not strong. The correlation coefficient between alcohol consumption and unemployment is 0.07, showing a very weak positive correlation. Scatter plot of alcohol consumption also suggests that unemployment has a positive effect on the level of alcohol consumption but it is very weak. The scatter plot between alcohol consumption and income indicates a very weak negative correlation (r = -0.05). This implies that income has almost no direct relationship with alcohol consumption, and as income increases, alcohol consumption has a slight downward trend. The distribution of alcohol consumption is severely right-skewed, while bachelor, unemployment, and income are slightly right-skewed

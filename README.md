@@ -40,7 +40,7 @@ The raw data was then aggregated using a custom function. This function calculat
 
 ### Descriptive statistics for liquor category sales in city level
 <div align="center">
-  <img src="images/Table_1_sales_city.png" alt="Table2" width="70%" height="70%" />
+  <img src="images/Table_2_sales_city.png" alt="Table2" width="70%" height="70%" />
 </div>
 
 

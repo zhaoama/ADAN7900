@@ -38,7 +38,7 @@ The raw data was then aggregated using a custom function. This function calculat
   <img src="images/Table_1_sales_coutry.png" alt="Table1" width="70%" height="70%" />
 </div>
 
-`Table 1` summarizes the liquor category sales at the county level, showing that **Whiskey had the highest average sales** (average sales: $935,023.49), followed by Vodka (average sales: $639,320.56) and Rum (average sales: $360,727.07). Categories such as Amaretto and Distilled Spirits have significantly lower average and median sales, indicating a smaller consumer base. The median is often lower than the mean for each category, and this implies outliers or counties with significantly higher sales. 
+`Table 1` summarizes the liquor category sales at the county level, showing that **Whiskey had the highest average sales** ($935,023.49), followed by Vodka ($639,320.56) and Rum ($360,727.07). Categories such as Amaretto and Distilled Spirits have significantly lower average and median sales, indicating a smaller consumer base. The median is often lower than the mean for each category, and this implies outliers or counties with significantly higher sales. 
 
 #### Liquor category sales in city level
 <div align="center">

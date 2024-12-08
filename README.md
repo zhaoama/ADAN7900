@@ -128,5 +128,10 @@ This figure shows the relationship between income, education level (percentage o
 
 ## **Policy Recommendation**
 
+Iowa policymakers should consider introducing a graduated alcohol tax policy and targeted regulatory measures. This can better reflect the significant differences in per capita consumption, income levels, and education levels among different cities in the state. According to the analysis, Whiskey and Vodka—moderately priced and widely consumed—dominate in many communities. High-income, well-educated areas tend to purchase higher-priced categories, while low-income areas may be more sensitive to changes in alcohol prices. Based on the analysis, we recommend the following policy approaches：
+  - Impose higher taxes on the most consumed alcohol categories
+  - Use additional taxes from high-consumption areas to fund local education and public health campaigns
+  - Carry out community alcohol education campaigns to increase people's awareness of the harms of excessive drinking
 
+Implementing these policies has multiple positive influences. First, it can reduce excessive consumption and increase public awareness of the risks of drinking. At the same time, this can reduce alcohol-related medical and social costs in the long term, and promote market diversification and community equity. However, it is also necessary to pay attention to potential risks, including the financial burden on low-income families, the possible increase in illegal alcohol purchases, besides, this policy may also receive liquor industry resistance. Therefore, developing data-driven policies, combined with sensible tax adjustments and targeted public health interventions, could effectively improve alcohol consumption patterns in Iowa while balancing economic and social equity.
 

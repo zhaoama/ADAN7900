@@ -31,8 +31,8 @@ Data cleaning began by loading sales data and merging it with ACS demographic an
 
 The raw data was then aggregated using a custom function. This function calculated total sales (`total.sale`) and total volume (`total.volume`) for each geographic level and used this to determine an average price (`price`), which is the ratio of total sales to total volume. This aggregation provided a overall view for subsequent analysis by removing detailed data for specific liquor categories. The resulting county, city, and zip code level datasets present simplified and aggregated liquor sales patterns while retaining key demographic and economic variables.
 
-- `data.clean` contains detailed information for each individual liquorcategory.
-- `data.clean.2` aggregates total sales andvolume across all categories, providingsummarized data for each county, cityand zipcode.
+- `data.clean` contains detailed information for each individual liquor category.
+- `data.clean.2` aggregates total sales and volume across all liquor categories, providing summarized data for each city.
   Below are the sample of these two dataset.
 
 <div align="center">
@@ -128,33 +128,52 @@ This figure shows a comparison of the per capita income of different racial grou
 
 ### Geographical Relationship Between Alcohol Consumption Across Iowa Cities
 ![Alcohol_Sales Across_Iowa_Cities_by_Liquor_Categories](images/Alcohol_Sales_AcrossCities_byCategories.png)
-A map was created to explore potential geographical relationship with alcohol consumption across Iowa cities. We focused on how the total alcohol sales in dollars may vary across locations. For visualizing purposes, cities were marked and differentiated according to total sales, varying by sizes and colors of circles. A darker and larger size indicated a greater sales. Additionally, we filtered only top 10 cities with highest sales for a more focused comparison.
+A map was created to explore potential geographical relationship with alcohol consumption across Iowa cities. We focused on how the total alcohol sales in dollars may vary across locations. For visualizing purposes, cities were marked and differentiated based on total sales, varying by sizes and colors of circles. A darker and larger size indicated a higher sales. Additionally, we filtered only top 10 cities with highest sales for a more focused comparison.
 
 The map revealed a distinct geographical trends: cities in the Central-Southern (e.g., Des Moines) and Eastern Iowa (e.g., Cedar Rapids) have highest alcohol sales among Top 10 cities. This pattern implied a higher likelihood to consume alcohol in these cities and/or regions. Contrarily, cities located in Western Iowa (e.g., Sioux City) have relatively overall lower sales, implied a lower likelihood or level to consume alcohol.
 
 One possible reasons behind such difference could be population density: cities in central areas are likely to have higher populations compared to other less densely populated cities, which contributed to a higher total alcohol sales for having greater amount of alcohol consumers. For example, Des Moines had over 20,0000 residents, which considered as moderate-large. Furthermore, urbanized cities may have higher density of bars, restaurants, and liquor stores, offering places to purchase alcohols. Finally, more job opening opportunities are in more urbanized cities often associated with higher incomes that enable residents to afford alcohol consumption. These combined reasons together explain differences in sales across Iowa.
 
 ###  Alcohol Consumption in Average Sales Across Racial Groups
-We also looked into how alcohol consumption, measured by average sales, varies across racial groups in Iowa cities. To explore, we plotted sales per resident against the percentage of specific single racial group within cities (obtained by sales in dollars/population, for each city). 
+We also looked into how alcohol consumption, measured by average sales, varies across racial groups in Iowa cities. To explore, we plotted sales per resident against the percentage of specific racial group within cities (obtained by sales in dollars/population, for each city). The dataset we used is aggregated data, as described in Data Summary above.
+
 To gain a deeper insights of the dynamics, we further classified cities into either **“Large”** or **“Small”**, based on population size: Cities with a population >= 50,000 are considered as “Large.” The rationale for city classification see References. 
-We added an interative filter to switch between "Large" vs "Small" cities. Polynimial trendlines describing the nature of relationship between two key interests were also added, providing a clear understanding of the relationship. The percentage of population of corresponding racial groups were highlighted if average sales were over $ 400, indicating a high alcohol consumption.
+We added an interative filter to switch between "Large" vs "Small" cities. Polynimial trendlines describing the nature of relationship between two key interests were also added, providing a clear understanding of the relationship. Finally, the percentage of population of corresponding racial groups were highlighted if associated average sales were over $ 400, indicating a high alcohol consumption. We included comparasions of Sales Per Residents for White & Black Residents, Hawai Residents and Multi-Racial Group as examples below:
 
 ![Sales Per Resident by_Black vs White Group](images/White&Black_vs_Sales.png)
-![Sales Per Resident by_Asian Group](images/Sales_vs_Multi-racial_group.png)![Sales Per Resident by_Hawai Group](images/Sales_vs_Hawai.png)
+![Sales Per Resident by_Asian Group](images/Sales_vs_Multi-racial_group.png)
+![Sales Per Resident by_Hawai Group](images/Sales_vs_Hawai.png)
 
-Overall, we found that alcohol sales per residents are mostly high where lower % of of each racial group reside across both types of cities. This pattern was supported by highlight points for average sales > $400 at the left side of the figures. Except for White group (see figures above), where highest average sales occured where higher % of racial residents live. 
-For **Small cities**: there were slight or weak positive asscoiations between average sales and percentage of racial residents, implying that increase in one variable is associated with increase in another one. For some racial group (e.g., Black), we may also observe a slight decline in sales with increase in %, indicating a slight cultural difference.
-For **Large cities**: For most racial groups, large cities were most likely to show a first incease and then declines in average sales with increase in % of residents, as described by trendlines. This excludes for those with two or more racial identities (i.e., Multi-racial group), where initially declines but then increases at higher % of residents (see the figure above)
+Overall, we found that average alcohol sales are high where lower % of each racial group reside, especially for small cities. This pattern was found in most racial groups, supported the observations that highlight points for average sales > $400 clusttered at the left side of the figures. Nevertheless, for White group, highest average sales occured where higher % of racial residents live. 
 
-Here we included comparasions of Sales Per Residents for White & Black Residents, Hawai Residents and Multi-Racial Group as examples. 
-- **White & Black Residents:** 
-- **Hawai Residents:**
-- **Multi-racial Residents:**
+- **In Small cities**: there were slight or weak positive asscoiations between average sales and percentage of racial residents, implying that increase in one variable is associated with increase in another one. For some racial group (e.g., Black), we may observe a slight decline in sales with increase in %. Such difference inferred a cultural difference.
+- **In Large cities**: Large cities were most likely to show a first incease and then declines in average sales with increase in % of residents, as described by trendlines. This excludes for those with two or more racial identities (i.e., Multi-racial group), where a reverse trend occurred: initially declines but then increases with higher % of residents (see the figures above)
 
-Together, the patterns suggest that city classification matters when investigating alcohol consumption & racial differences & alcohol consumption dynamics, though the associations may not be strong. The trends were more uniform in small cities could be that a less densed cities share common alcohol drinking habbits or having limited recreational options but drinking, compared to large cities. 
-More variations in resident groups and a diverse range of choice in terms of leisure in large cities could associate with various preference in alcohol consumptions, thus resulting in initial increase and then decline as patterns of changes. 
+It is important to note that the above conclusions are should be taked with careful considerations. For instance, there could be large variability in alcohol sales due to the small % of Hawaiian (<3%, indicated by x-axis)across cities. This small percentage of demographic in Iowa would bias interpretability. Detailed discussions on limitations see conclusion section.
 
-Additionally, since the pattern vary across racial groups, it implies an important role of cultural norms play on influencing individual attitudes and behaviors toward alcohol. 
+Despite the above limitation, we can tell that city classification matters when investigating alcohol consumption dynamics by considering racial differences, though the associations were not be significantly strong since points scattered all around in the figures. The alcohol consumption trends were more uniform in small cities could be that a less densed cities share common alcohol drinking habbits, having limited recreational options compared to large cities. Diversities in racial groups and a wider range of choice and access of leisure in large or urbainized cities may associate with more complex preference in alcohol consumptions, explaining an initial increase and then decline in average sales, or more complicated trend of changes.  
+
+Additionally, since the pattern vary across racial groups, it implies that cultural norms could significantly influence individuals' attitudes and behaviors toward alcohol consumption. Studies by Shih et al.(2023) on cultural values (e.g., familism, parental respect) on initial alcohol use offerred some insights: They supported the role of cultural values in the decision to use alcohol. In our case, cultural values could be impactful on cultivating mindeset how much and when individual would like drink, reflected by dynamics in sales per residents. For cities where residents have a blend of cultural norms (e.g., Multi-racial group), their alcohol consumption pattern vary more significantly, reflecting a complexities of mixed cultural backgrounds.
+
+Refer back to earlier conclusions that Black and Asian residents demonstrated higher sales per capita than White residents than White residents, whereas here it showed higher % White residents is associated with higher alcohol consumptions. A variation in findings remind us to be mindful of other factors, such as socialeconomic (e.g., working oppirtunities) and psychological factors (e.g., community culturals), they can altogether contribute to variations in people's alcohol consumption choices.
+
+###  Alcohol Consumption in Average Sales, in Dollars and Liters, vs. Income, Education Levels
+Next, we investigated whether there are unique associations between alcohol consumption with two key economic and educational indicators: **median income** and **educational attainment**(high school or higher vs. bachelor or higher). Our analysis utilized the dataset which provided detailed information for alcohol sales across each individual liquor category for corresponding cities in Iowa. 
+
+We created three figures respectively, each one used liquor categories as filters; we also highlighted the name of the liquor category where its ****average sales ($)** exceed $ 150** and ****average sales (in liters)** greater than 12 L**. Liquor categories were differentiated by colors and shapes, using an interative filter to switch between categories. Trendlines were added for each category to see overall change across incomes. See below for the result figures:
+
+![Average Sales ($) vs. Income](images/Sales_vs_Income.png)
+We can see that most data points cluster around income ranges from $25 to $ 40K, from Lower to Middle-level income, with some variation. The highest average sales also associated middle level income, suggesting that these people were have highest likelihood to purchase for alcohols. 
+However, alcohol consumption in dollars may not strongly or consistent associated with income in Iowa cities, due to a broad scattering of the points. Thus, using income itself may not do well in predicting alcohol consumption in terms of sales.
+
+![Average Sales (L) vs. Income](images/Volume_Sale_vs_Income.png)
+Similarly, the Lower-Middle income levels (~ $30K) dominate in terms of highest average sales, despite that there lacks of strong or consistent associations. Middle-income individuals are the primary consumers, exhibited a higher likelihood of alcohol consumptions. This makes sense as that a higher average sales is associated with greater volume of sales. For those who earn lower or higher income, volume sales do not significantly differ, suggesting lack of consumption patterns. 
+
+![Average Sales (L) vs. Income](images/Sales_vs_Education.png)
+Generally, cities had a higher percentage of population who completed high school or higher degrees. Cities with higher percentages of bachelor's or higher degrees tend to have moderate alcohol sales. There was a slight decrease and then increase in sales in cities with a higher percentage of such education degrees. Those who attained High school degree show little variation, suggesting alcohol consumption was higher in cities with a higher percentage of this education level. 
+
+However, both education levels did not do well in predicting alcohol consumption patterns because of the scattered data points, and did not vary significantly in terms of average sales between the two educational levels. All together, we need to consider other possible explanatory factors, such as risk education on alcohol consumption, cultural factors, employment rate to fully understand such complex patterns. And we may need a larger sample size (e.g., outside of Iowa) for a larger power in observing differences. One study by Rosoff et al.(2021) provided initial insights: their study based on ~780,000 participants concluded that educational attainment had important impact on alcohol consumption patterns & explain further health outcomes. As such, adding extra variables (e.g., resident features) would be helpful for gaining deeper insights in our research interest.
+
 
 ## **Conclusion**
 
@@ -169,4 +188,11 @@ Iowa policymakers should consider introducing a graduated alcohol tax policy and
 Implementing these policies has multiple positive influences. First, it can reduce excessive consumption and increase public awareness of the risks of drinking. At the same time, this can reduce alcohol-related medical and social costs in the long term, and promote market diversification and community equity. However, it is also necessary to pay attention to potential risks, including the financial burden on low-income families, the possible increase in illegal alcohol purchases, besides, this policy may also receive liquor industry resistance. Therefore, developing data-driven policies, combined with sensible tax adjustments and targeted public health interventions, could effectively improve alcohol consumption patterns in Iowa while balancing economic and social equity.
 
 ## **References**
-Rationale for classifying Large Cities: https://en.wikipedia.org/wiki/Iowa_statistical_areas#:~:text=The%20OMB%20defines%20a%20core,with%2010%2C000%20to%2049%2C999%20people.
+Rationale for classifying Large Cities:
+https://en.wikipedia.org/wiki/Iowa_statistical_areas#:~:text=The%20OMB%20defines%20a%20core,with%2010%2C000%20to%2049%2C999%20people.
+
+Disussion on Cultural Norms and Alcohol Use:
+Shih, R. A., Miles, J. N. V., Tucker, J. S., Zhou, A. J., & D'Amico, E. J. (2012). Racial/ethnic differences in the influence of cultural values, alcohol resistance self-efficacy, and alcohol expectancies on risk for alcohol initiation. Psychology of Addictive Behaviors, 26(3), 460–470. https://doi.org/10.1037/a0029254
+
+Disussion on Alcohol Consumption and Education Attainment:
+Rosoff, D. B., Clarke, T. K., Adams, M. J., McIntosh, A. M., Davey Smith, G., Jung, J., & Lohoff, F. W. (2021). Educational attainment impacts drinking behaviors and risk for alcohol dependence: results from a two-sample Mendelian randomization study with ~780,000 participants. Molecular psychiatry, 26(4), 1119–1132. https://doi.org/10.1038/s41380-019-0535-9

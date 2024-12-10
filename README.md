@@ -104,10 +104,6 @@ This figure shows the top 10 cities in Iowa by per capita alcohol consumption. W
 ![Top_Cities_Per_Capita_Sales](images/Top_Cities_Per_Capita_Sales.jpg)
 This figure shows the proportions of specific alcohol categories in the Top 10 cities for alcohol consumption per capita. Whiskey and vodka have the largest share in all cities. At $14.99 and $10.16 respectively, these two alcohols fall into the category of alcohol at and below the average unit price. This suggests that price may play an important role in these cities. Economic conditions may have influenced consumers' purchasing decisions, making them more inclined to choose wines that offer good value for money. However, in Mount Vernon, the most expensive wine, Distilled Spirits, can be clearly seen with a unit price of $20.76, and the second most expensive wine, Misc, also accounts for the largest proportion in the Top10, which suggests that this city may have a higher income level and consumption level. 
 
-![Relationship](images/Relationships_income_education_unitprice.jpg)
-
-This figure shows the relationship between income, price per unit of alcohol, high school education level, and bachelor's degree. The graph shows that as income increases, the price per unit of alcohol consumed also increases slightly, suggesting that higher-income areas and populations may tend to purchase more expensive alcohol products. In addition, higher levels of high school education (in red) appear to be associated with higher incomes, suggesting that education level may influence income and alcohol consumption patterns to some extent. The different shapes of the markers indicate different proportions of bachelor's degrees, further suggesting that education level may have an impact on consumption choices. Overall, areas with higher incomes and higher levels of education tended to consume alcohol with a higher unit price, while areas with lower incomes and lower levels of education tended to choose alcohol with a lower price.
-
 
 ### Alcohol consumption and Race in Iowa Cities
 ![Per_Capita_Sales_Race](images/Per_Capita_Sales_Race.jpg)

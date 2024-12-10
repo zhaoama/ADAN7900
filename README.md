@@ -31,6 +31,13 @@ Data cleaning began by loading sales data and merging it with ACS demographic an
 
 The raw data was then aggregated using a custom function. This function calculated total sales (`total.sale`) and total volume (`total.volume`) for each geographic level and used this to determine an average price (`price`), which is the ratio of total sales to total volume. This aggregation provided a overall view for subsequent analysis by removing detailed data for specific liquor categories. The resulting county, city, and zip code level datasets present simplified and aggregated liquor sales patterns while retaining key demographic and economic variables.
 
+- `data.clean` contains detailed information for each individual liquorcategory.
+- `data.clean.2` aggregates total sales andvolume across all categories, providingsummarized data for each county, cityand zipcode.
+  Below are the sample of these two dataset
+
+
+
+
 ### Descriptive statistics analysis
 
 #### Liquor category sales in coutry level

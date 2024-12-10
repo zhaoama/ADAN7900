@@ -112,11 +112,7 @@ This figure shows the per capita consumption of alcohol among different races. I
 
 ![Per_Capita_Income_Race](images/Per_capita_IncomeRace.jpg)
 
-This figure shows a comparison of the per capita income of different racial groups in Iowa.The White group has the highest per capita income at $30,417.However, overall, there is not a great deal of difference in income between the races. Therefore, it can be assumed that alcohol consumption by race has little correlation with income.
-
-![Alcohol_Consumption_Bachelor_Group](images/Alcohol_Consumption_Bachelor_Group.jpg)
-
-This figure shows the relationship between income, education level (percentage of bachelor's degree) and alcohol consumption for different racial groups. Overall, groups with higher incomes and higher levels of education (indicated by the red dots) are more likely to have higher alcohol consumption, but this trend is not absolute; there are small peaks in consumption among lower-income groups, mostly Asians and Blacks, which is consistent with the conclusions of the per capita consumption graph. 
+This figure shows a comparison of the per capita income of different racial groups in Iowa.The White group has the highest per capita income at $30,417.However, overall, there is not a great deal of difference in income between the races. Therefore, it can be assumed that alcohol consumption by race has little correlation with income. 
 
 
 ## **Conclusion**

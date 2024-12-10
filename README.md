@@ -127,17 +127,34 @@ This figure shows the per capita consumption of alcohol among different races. I
 This figure shows a comparison of the per capita income of different racial groups in Iowa.The White group has the highest per capita income at $30,417.However, overall, there is not a great deal of difference in income between the races. Therefore, it can be assumed that alcohol consumption by race has little correlation with income. 
 
 ### Geographical Relationship Between Alcohol Consumption Across Iowa Cities
-![Alcohol_Sales Across_Iowa_Cities_by_Liquor_Categories](images/Sales_Across_Cities_by_Categories.png)
-A map was created to explore potential geographical relationship with lcohol consumption across Iowa cities. We focused on how the total alcohol sales ($) vary across geographical locations. To visualize, cities were marked and differentiated according to total sales ($), varying by sizes and colors of circles. A darker and larger size indicated a greater sales. Additionally, we filtered only top 10 cities with highest sales for a focused comparison.
+![Alcohol_Sales Across_Iowa_Cities_by_Liquor_Categories](images/Alcohol_Sales_AcrossCities_byCategories.png)
+A map was created to explore potential geographical relationship with alcohol consumption across Iowa cities. We focused on how the total alcohol sales in dollars may vary across locations. For visualizing purposes, cities were marked and differentiated according to total sales, varying by sizes and colors of circles. A darker and larger size indicated a greater sales. Additionally, we filtered only top 10 cities with highest sales for a more focused comparison.
 
-The map revealed a distinct geographical trends: cities in the central-southern (e.g., Des Moines) and eastern Iowa (e.g., Cedar Rapids) have highest alcohol sales among Top 10 cities. This pattern implied a higher likelihood to consume alcohol in these cities. Contrarily, cities located in west Iowa (e.g., Sioux) have relatively overall lower sales, implied a lower likelihood to drink.
+The map revealed a distinct geographical trends: cities in the Central-Southern (e.g., Des Moines) and Eastern Iowa (e.g., Cedar Rapids) have highest alcohol sales among Top 10 cities. This pattern implied a higher likelihood to consume alcohol in these cities and/or regions. Contrarily, cities located in Western Iowa (e.g., Sioux City) have relatively overall lower sales, implied a lower likelihood or level to consume alcohol.
 
-One possible reasons behind such difference could be population density: cities in central areas are likely to have higher populations compared to other less densely populated cities, which contributed to a higher total alcohol sales due to greater alcohol consumers. For example, Des Moines had over 20,0000 residents, which considered as moderate-large. Furthermore, urbanized cities may have higher density of bars, restaurants, and liquor stores, offering places to purchase alcohols. Finally, more job opening opportunities are in more urbanized cities often associated with higher incomes that enable residents to afford alcohol consumption. These combined reasons together explain differences in sales across Iowa.
+One possible reasons behind such difference could be population density: cities in central areas are likely to have higher populations compared to other less densely populated cities, which contributed to a higher total alcohol sales for having greater amount of alcohol consumers. For example, Des Moines had over 20,0000 residents, which considered as moderate-large. Furthermore, urbanized cities may have higher density of bars, restaurants, and liquor stores, offering places to purchase alcohols. Finally, more job opening opportunities are in more urbanized cities often associated with higher incomes that enable residents to afford alcohol consumption. These combined reasons together explain differences in sales across Iowa.
 
 ###  Alcohol Consumption in Average Sales Across Racial Groups
-Our second major research interest lies in how alcohol consumption in average sales may vary across racial groups in Iowa cities. To investigate, we plotted average sales per resident against the percentage of specific single racial group within cities. For a better understanding of the dynamics of alcohol consumption among different races, we further classified cities into either “Large” or “Small”, based on their population. Cities with a population >= 50,000 are considered as “Large” The rationale for city classification see reference. We added a filter to switch between city types, along with trendlines describing the nature of relationship between two key interests. The percentage of population of corresponding racial groups were also highlighted if average sales were over $ 400, considered as showing high alcohol consumption.
+We also looked into how alcohol consumption, measured by average sales, varies across racial groups in Iowa cities. To explore, we plotted sales per resident against the percentage of specific single racial group within cities (obtained by sales in dollars/population, for each city). 
+To gain a deeper insights of the dynamics, we further classified cities into either **“Large”** or **“Small”**, based on population size: Cities with a population >= 50,000 are considered as “Large.” The rationale for city classification see References. 
+We added an interative filter to switch between "Large" vs "Small" cities. Polynimial trendlines describing the nature of relationship between two key interests were also added, providing a clear understanding of the relationship. The percentage of population of corresponding racial groups were highlighted if average sales were over $ 400, indicating a high alcohol consumption.
 
-![Sales Per Resident by_Racial Group](images/White&Black_vs_Sales.png)
+![Sales Per Resident by_Black vs White Group](images/White&Black_vs_Sales.png)
+![Sales Per Resident by_Asian Group](images/Sales_vs_Multi-racial_group.png)![Sales Per Resident by_Hawai Group](images/Sales_vs_Hawai.png)
+
+Overall, we found that alcohol sales per residents are mostly high where lower % of of each racial group reside across both types of cities. This pattern was supported by highlight points for average sales > $400 at the left side of the figures. Except for White group (see figures above), where highest average sales occured where higher % of racial residents live. 
+For **Small cities**: there were slight or weak positive asscoiations between average sales and percentage of racial residents, implying that increase in one variable is associated with increase in another one. For some racial group (e.g., Black), we may also observe a slight decline in sales with increase in %, indicating a slight cultural difference.
+For **Large cities**: For most racial groups, large cities were most likely to show a first incease and then declines in average sales with increase in % of residents, as described by trendlines. This excludes for those with two or more racial identities (i.e., Multi-racial group), where initially declines but then increases at higher % of residents (see the figure above)
+
+Here we included comparasions of Sales Per Residents for White & Black Residents, Hawai Residents and Multi-Racial Group as examples. 
+- **White & Black Residents:** 
+- **Hawai Residents:**
+- **Multi-racial Residents:**
+
+Together, the patterns suggest that city classification matters when investigating alcohol consumption & racial differences & alcohol consumption dynamics, though the associations may not be strong. The trends were more uniform in small cities could be that a less densed cities share common alcohol drinking habbits or having limited recreational options but drinking, compared to large cities. 
+More variations in resident groups and a diverse range of choice in terms of leisure in large cities could associate with various preference in alcohol consumptions, thus resulting in initial increase and then decline as patterns of changes. 
+
+Additionally, since the pattern vary across racial groups, it implies an important role of cultural norms play on influencing individual attitudes and behaviors toward alcohol. 
 
 ## **Conclusion**
 
@@ -151,3 +168,5 @@ Iowa policymakers should consider introducing a graduated alcohol tax policy and
 
 Implementing these policies has multiple positive influences. First, it can reduce excessive consumption and increase public awareness of the risks of drinking. At the same time, this can reduce alcohol-related medical and social costs in the long term, and promote market diversification and community equity. However, it is also necessary to pay attention to potential risks, including the financial burden on low-income families, the possible increase in illegal alcohol purchases, besides, this policy may also receive liquor industry resistance. Therefore, developing data-driven policies, combined with sensible tax adjustments and targeted public health interventions, could effectively improve alcohol consumption patterns in Iowa while balancing economic and social equity.
 
+## **References**
+Rationale for classifying Large Cities: https://en.wikipedia.org/wiki/Iowa_statistical_areas#:~:text=The%20OMB%20defines%20a%20core,with%2010%2C000%20to%2049%2C999%20people.

@@ -35,7 +35,13 @@ The raw data was then aggregated using a custom function. This function calculat
 - `data.clean.2` aggregates total sales andvolume across all categories, providingsummarized data for each county, cityand zipcode.
   Below are the sample of these two dataset
 
+<div align="center">
+  <img src="images/data_clean.png" alt="data.clean" width="70%" height="70%" />
+</div>
 
+<div align="center">
+  <img src="images/data_clean_2.png" alt="data.clean.2" width="70%" height="70%" />
+</div>
 
 
 ### Descriptive statistics analysis

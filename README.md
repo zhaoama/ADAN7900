@@ -43,7 +43,6 @@ The raw data was then aggregated using a custom function. This function calculat
   <img src="images/data_clean_2.png" alt="data.clean.2" width="70%" height="70%" />
 </div>
 
-
 ### Descriptive statistics analysis
 
 #### Liquor category sales in coutry level

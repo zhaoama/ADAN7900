@@ -10,6 +10,9 @@ $\color{NavyBlue}{Chenyi\ Wu}$
 
 $\color{NavyBlue}{Yifei\ Li}$
 
+## **Tableau Workbook** 
+https://public.tableau.com/views/FinalAlcoholSalesvs_IncomeEducationRacialGroups/AlcoholSalesAcrossIowaCitiesbyLiquorCategories?:language=en-US&:sid=8E2B249C69A04EE3A78A866981F7B256-0:0&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 ## **Introduction** 
 Liquor consumption patterns are influenced by a variety of socioeconomic and demographic factors, making it important to analyze these factors for effective public health and government policy development, and liquor businessmen. The purpose of this study is to analyze the socioeconomic and demographic determinants of liquor consumption in Iowa, with a focus on two research questions:
 -  Is there a significant relationship between alcohol consumption and factors such as unemployment rate, income, and education levels, in Iowa cities?
@@ -135,7 +138,7 @@ The map revealed a distinct geographical trends: cities in the Central-Southern 
 One possible reasons behind such difference could be population density: cities in central areas are likely to have higher populations compared to other less densely populated cities, which contributed to a higher total alcohol sales for having greater amount of alcohol consumers. For example, Des Moines had over 20,0000 residents, which considered as moderate-large. Furthermore, urbanized cities may have higher density of bars, restaurants, and liquor stores, offering places to purchase alcohols. Finally, more job opening opportunities are in more urbanized cities often associated with higher incomes that enable residents to afford alcohol consumption. These combined reasons together explain differences in sales across Iowa.
 
 ###  Alcohol Consumption in Average Sales Across Racial Groups
-We also looked into how alcohol consumption, measured by average sales, varies across racial groups in Iowa cities. To explore, we plotted sales per resident against the percentage of specific racial group within cities (obtained by sales in dollars/population, for each city). The dataset we used is aggregated data, as described in Data Summary above.
+We also looked into how alcohol consumption, measured by average sales, varies across racial groups in Iowa cities. To explore, we plotted sales per resident against the percentage of specific racial group within cities (obtained by sales in dollars/population, for each city). The dataset we used is `data.clean.2`, which aggregated total sales and volume across all liquor categories summarized for each city.
 
 To gain a deeper insights of the dynamics, we further classified cities into either **“Large”** or **“Small”**, based on population size: Cities with a population >= 50,000 are considered as “Large.” The rationale for city classification see References. 
 We added an interative filter to switch between "Large" vs "Small" cities. Polynimial trendlines describing the nature of relationship between two key interests were also added, providing a clear understanding of the relationship. Finally, the percentage of population of corresponding racial groups were highlighted if associated average sales were over $ 400, indicating a high alcohol consumption. We included comparasions of Sales Per Residents for White & Black Residents, Hawai Residents and Multi-Racial Group as examples below:
@@ -158,28 +161,26 @@ Additionally, since the pattern vary across racial groups, it implies that cultu
 Refer back to earlier conclusions that Black and Asian residents demonstrated higher sales per capita than White residents than White residents, whereas here it showed higher % White residents is associated with higher alcohol consumptions. A variation in findings remind us to be mindful of other factors, such as socialeconomic (e.g., working oppirtunities) and psychological factors (e.g., community culturals), they can altogether contribute to variations in people's alcohol consumption choices.
 
 ###  Alcohol Consumption in Average Sales, in Dollars and Liters, vs. Income, Education Levels
-Next, we investigated whether there are unique associations between alcohol consumption with two key economic and educational indicators: **median income** and **educational attainment**(high school or higher vs. bachelor or higher). Our analysis utilized the dataset which provided detailed information for alcohol sales across each individual liquor category for corresponding cities in Iowa. 
+Next, we investigated whether there are unique associations between alcohol consumption with two key economic and educational indicators: **median income** and **educational attainment**(high school or higher vs. bachelor or higher). Our analysis utilized `data.clean` which provided detailed information for alcohol sales for each individual liquor category for corresponding cities in Iowa. 
 
 We created three figures respectively, each one used liquor categories as filters; we also highlighted the name of the liquor category where its ****average sales ($)** exceed $ 150** and ****average sales (in liters)** greater than 12 L**. Liquor categories were differentiated by colors and shapes, using an interative filter to switch between categories. Trendlines were added for each category to see overall change across incomes. See below for the result figures:
 
 ![Average Sales ($) vs. Income](images/Sales_vs_Income.png)
-We can see that most data points cluster around income roughly ranges from $20 to $ 40K, fall within a Lower to Middle-level income range. The highest average sales also associated middle level income, suggesting that these people were have highest likelihood to purchase for alcohols. 
-However, alcohol consumption in dollars may not strongly or consistent associated with income in Iowa cities, due to a broad scattering of the points. Using income itself may not do well in predicting alcohol consumption indicated by average sales.
+We can see that most data points cluster around income roughly ranges from $20 to $ 40K, fall within a Lower to Middle-level income range. The highest average sales also associated middle level income, suggesting that these people were have highest likelihood to purchase for alcohols. However, alcohol consumption in dollars may not strongly or consistent associated with income in Iowa cities, due to a broad scattering of the points. This suggested that using income only may not do well in predicting alcohol consumption indicated by average sales.
 
 ![Average Sales (L) vs. Income](images/Volume_Sale_vs_Income.png)
 Similarly, the Lower-Middle income levels (~ $30K) dominate in terms of highest average volume sales, despite that there lacks of strong or consistent associations. Again, middle-income individuals are the primary consumers, exhibited a higher likelihood to drink alcohol. This makes sense as that a higher average sales is associated with greater volume of sales. For those who earn lower or higher income, volume sales do not significantly differ, suggesting lack of consumption patterns. 
 
-![Average Sales (L) vs. Income](images/Sales_vs_Education.png)
+![Average Sales ($) vs. Educational Attainment](images/Sales_vs_Education.png)
 Generally, cities had a higher percentage of population who completed high school or higher degrees. Cities with higher percentages of bachelor's or higher degrees tend to have moderate alcohol consumption. There was a slight decrease and then increase in sales in cities with a higher percentage of residents attained bachelor degrees. Those who attained High school degree show little variation: alcohol consumption was higher in cities with a higher percentage of people attained this education level. 
 
 However, both education levels did not do well in predicting alcohol consumption patterns because of the scattered data points, and did not vary significantly in terms of average sales between the two educational levels. This lack of understanding again suggested a consideration of including other possible explanatory factors, such as risk education on alcohol consumption, cultural factors, employment rate, to fully understand such complex patterns. We may also need a larger sample size (e.g., outside of Iowa) to be confident in observing difference in alcohol consumptions within each group. One study by Rosoff et al.(2021) provided some initial insights: their study based on ~780,000 participants concluded that educational attainment had important impact on alcohol consumption patterns & explain further health outcomes. Thus, additional relevant variables (e.g., resident features) would be helpful for gaining deeper insights in our research interest.
 
 ### Regression Predicting Total Sales ($) Based on Education Levels and Unemployment Rate
-Furthermore, we performed a regression analysis to gain further insights how educational and socioecnomic factors contribute to individuals' alcohol consumption behaviors, measured in dollars. 
+Furthermore, we performed a regression analysis to gain further insights how educational and socioecnomic factors contribute to individuals' alcohol consumption behaviors, measured in dollars. To investigate, we utilized `data.clean`, which contains detailed information of alcohol sales for each individual liquor category across cities. Our predictor variables are bachelor, high school degree attainment rates and unemployment rates. These are three major educational and socioeconomic factors we believe contribute to understanding of alcohol consumption behaviors. The outcome variable was sales for each type of liquor within each city. See below for our regression results:
+![Regression Model](images/Regression_Model.png)
 
-
-
-
+The results revealed a statistically significant associations between all three predictors and the outcome variable, indicated by _p-value_ less than .001 level. Attaining a bachelor or higher degree seemed to have particularly significant associations with alcohol sales, indicated by an extremely small _p-value_. The estmitates for each three predictors can be interpreted as following: for every 1% increase in high school graduates, bachelor graduates, and unemployment rates, there will be a decrease of $ 9252, an increase of $ 9381, and increase of $ 13645 in alcohol sales. The positive relationship with employment and alcohol sales was superisely contrary to intution. However, an adjusted R-squared value of 0.048 suggested that only about 4.8% of the variability in sales can be explained by the predictors in this model. Therefore, adding more preditor variables are critical for improve the model, and may reveal the full story in terms of relationship among variables.  
 
 ## **Conclusion**
 
@@ -194,11 +195,11 @@ Iowa policymakers should consider introducing a graduated alcohol tax policy and
 Implementing these policies has multiple positive influences. First, it can reduce excessive consumption and increase public awareness of the risks of drinking. At the same time, this can reduce alcohol-related medical and social costs in the long term, and promote market diversification and community equity. However, it is also necessary to pay attention to potential risks, including the financial burden on low-income families, the possible increase in illegal alcohol purchases, besides, this policy may also receive liquor industry resistance. Therefore, developing data-driven policies, combined with sensible tax adjustments and targeted public health interventions, could effectively improve alcohol consumption patterns in Iowa while balancing economic and social equity.
 
 ## **References**
-Rationale for classifying Large Cities:
+**Rationale for classifying Large Cities:**
 https://en.wikipedia.org/wiki/Iowa_statistical_areas#:~:text=The%20OMB%20defines%20a%20core,with%2010%2C000%20to%2049%2C999%20people.
 
-Disussion on Cultural Norms and Alcohol Use:
+**Disussion on Cultural Norms and Alcohol Use:**
 Shih, R. A., Miles, J. N. V., Tucker, J. S., Zhou, A. J., & D'Amico, E. J. (2012). Racial/ethnic differences in the influence of cultural values, alcohol resistance self-efficacy, and alcohol expectancies on risk for alcohol initiation. Psychology of Addictive Behaviors, 26(3), 460–470. https://doi.org/10.1037/a0029254
 
-Disussion on Alcohol Consumption and Education Attainment:
+**Disussion on Alcohol Consumption and Education Attainment:**
 Rosoff, D. B., Clarke, T. K., Adams, M. J., McIntosh, A. M., Davey Smith, G., Jung, J., & Lohoff, F. W. (2021). Educational attainment impacts drinking behaviors and risk for alcohol dependence: results from a two-sample Mendelian randomization study with ~780,000 participants. Molecular psychiatry, 26(4), 1119–1132. https://doi.org/10.1038/s41380-019-0535-9

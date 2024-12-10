@@ -36,7 +36,7 @@ The raw data was then aggregated using a custom function. This function calculat
   Below are the sample of these two dataset.
 
 <div align="center">
-  <img src="images/data_clean.png" alt="data.clean" width="70%" height="70%" />
+  <img src="images/data_clean_1.png" alt="data.clean" width="70%" height="70%" />
 </div>
 
 <div align="center">

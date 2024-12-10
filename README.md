@@ -33,7 +33,7 @@ The raw data was then aggregated using a custom function. This function calculat
 
 - `data.clean` contains detailed information for each individual liquorcategory.
 - `data.clean.2` aggregates total sales andvolume across all categories, providingsummarized data for each county, cityand zipcode.
-  Below are the sample of these two dataset
+  Below are the sample of these two dataset.
 
 <div align="center">
   <img src="images/data_clean.png" alt="data.clean" width="70%" height="70%" />

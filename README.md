@@ -2,13 +2,13 @@
 
 ## **_Group 4 Members:_** 
 
-$\color{NavyBlue}{Yuhan\ Zhao}$
-
 $\color{NavyBlue}{Jinglei\ Chen}$
+
+$\color{NavyBlue}{Yifei\ Li}$
 
 $\color{NavyBlue}{Chenyi\ Wu}$
 
-$\color{NavyBlue}{Yifei\ Li}$
+$\color{NavyBlue}{Yuhan\ Zhao}$
 
 ## Discussion of progress on the eight major tasks. 
 **1. Propose a research topic:**

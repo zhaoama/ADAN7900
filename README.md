@@ -184,6 +184,12 @@ The results revealed a statistically significant associations between all three 
 
 ## **Conclusion**
 
+The explorations come with several limitations: First, the raw dataset provided by ACS "only contained estimates of the characteristics of the population, not to provide counts of the population in different geographic areas or population subgroups;" additionally, the estimates did not include estimate data by race for American Indian and Alaska Native areas (U.S. Census Bureau, n.d). As such, the representativeness of dataset may be concerned with have a full coverage of racial groups in Iowa. Using estimation of characteristics could be biased by many factors, such as data collection methods, context, time-point. Furthremore, the validity (i.e., to what extent our exploration, measurement, analysis results correctly answered our research question) of our analysis might be questioned due to the same reason of data nature. 
+
+Second, the small proportion for some racial groups (e.g., % Hawai) within cities may result in a high heterogenity of data, be less reprentative for those groups, and bring in a large variability in alcohol sales. This would challenge us to conclude a consistent trend in alcohol consumption behaviors for those racial groups. This low proportion of collected data could be due to sampling restrictions (e.g., lack of access to residents identified from those racial groups). Future studies on alcohol consumptions could work on expanding the range of data collections, for example inclusion of more states in U.S, to have a more comprehensive idea of attitudes and habits of drinking for residents identified as from racial groups. It would also be important for increase a generalizability of the findings, to drawing a wider, cross-states conclusions. 
+
+Lastly, additional variables should be included in future regression models. 
+
 
 ## **Policy Recommendation**
 
@@ -203,3 +209,6 @@ Shih, R. A., Miles, J. N. V., Tucker, J. S., Zhou, A. J., & D'Amico, E. J. (2012
 
 **Disussion on Alcohol Consumption and Education Attainment:**
 Rosoff, D. B., Clarke, T. K., Adams, M. J., McIntosh, A. M., Davey Smith, G., Jung, J., & Lohoff, F. W. (2021). Educational attainment impacts drinking behaviors and risk for alcohol dependence: results from a two-sample Mendelian randomization study with ~780,000 participants. Molecular psychiatry, 26(4), 1119–1132. https://doi.org/10.1038/s41380-019-0535-9
+
+**Limitations on ACS data:**
+https://www.census.gov/content/dam/Census/library/publications/2021/acs/acs_aian_handbook_2021_ch01.pdf

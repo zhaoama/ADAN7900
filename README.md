@@ -196,6 +196,27 @@ This heatmap illustrates the relationship between alcohol consumption and racial
 
 Overall, alcohol spending appears more closely correlated with racial composition than with education or unemployment. The interplay between racial group proportions highlights demographic trends and clustering patterns across Iowa cities.
 
+### Clusters of Cities Based on Alcohol Consumption and Socioeconomic Factors
+
+![Screenshot 2024-12-10 at 18 12 48](https://github.com/user-attachments/assets/35f922d8-d177-4fe1-ba71-aa16660e24c5)
+
+This clustering plot highlights a positive correlation between income and alcohol consumption across cities, using the KMeans clustering algorithm to group cities based on similarities in selected variables such as income, alcohol expenditure, and unemployment. The clustering process employs StandardScaler to normalize the data, ensuring equal contribution from all features, and utilizes Euclidean distance to assign cities to clusters in the scaled feature space.
+The analysis categorizes cities into three clusters based on their income and alcohol consumption patterns:
+
+- Cluster 0 (Low Income, Low Consumption): Cities with lower income levels and minimal alcohol consumption.
+- Cluster 1 (Moderate Income, High Consumption): Cities with moderate incomes and higher alcohol consumption.
+- Cluster 2 (High Income, Moderate Consumption): Cities with relatively higher incomes but moderate alcohol consumption.
+
+The relationship between income and alcohol consumption reveals a positive trend, with both factors increasing as we progress from Cluster 0 to Cluster 2. Higher income levels may enable greater alcohol expenditure, although cultural, social, and regional factors likely also play a role.
+Clusters are labeled based on income distribution:
+- Low Income: Below one standard deviation from the mean or the 33rd percentile.
+- Moderate Income: Within one standard deviation of the mean or between the 33rd and 66th percentiles.
+- High Income: Above one standard deviation from the mean or the 66th percentile.
+
+Higher income may facilitate increased alcohol consumption, but this is not definitive without further investigation. Cultural and Social also have impactes, variations in cultural norms, social attitudes, and alcohol availability could also impact consumption patterns. While the plot shows correlation, it does not establish causation. Other factors might influence both income and alcohol consumption.
+
+
+
 ## **Conclusion**
 
 The explorations come with several limitations: First, the raw dataset provided by ACS "only contained estimates of the characteristics of the population, not to provide counts of the population in different geographic areas or population subgroups;" additionally, the estimates did not include estimate data by race for American Indian and Alaska Native areas (U.S. Census Bureau, n.d). As such, the representativeness of dataset may be concerned with have a full coverage of racial groups in Iowa. Using estimation of characteristics could be biased by many factors, such as data collection methods, context, time-point. Furthremore, the validity (i.e., to what extent our exploration, measurement, analysis results correctly answered our research question) of our analysis might be questioned due to the same reason of data nature. 

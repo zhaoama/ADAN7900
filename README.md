@@ -248,7 +248,7 @@ Residual Variability: The residual standard error is high relative to the coeffi
 - Analysis Techniques:
   - Correlation and regression analysis explored relationships between alcohol consumption and socioeconomic factors (education, income, unemployment).
   - Geographic and category-specific sales analyses were performed to identify consumption trends.
-  - Racial group analysis examined per capita consumption and city size influences.
+  - Racial group analysis examined average alcohol consumption and city size influences.
   - KMeans clustering identified patterns based on income and alcohol consumption.
   - Visualization tools (scatterplots, heatmaps, and maps) highlighted regional and demographic trends.
 

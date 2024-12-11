@@ -2,13 +2,14 @@
 
 ## **_Group 4 Members:_** 
 
-$\color{NavyBlue}{Yuhan\ Zhao}$
 
 $\color{NavyBlue}{Jinglei\ Chen}$
 
+$\color{NavyBlue}{Yifei\ Li}$
+
 $\color{NavyBlue}{Chenyi\ Wu}$
 
-$\color{NavyBlue}{Yifei\ Li}$
+$\color{NavyBlue}{Yuhan\ Zhao}$
 
 ## **Tableau Workbook** 
 https://public.tableau.com/views/FinalAlcoholSalesvs_IncomeEducationRacialGroups/AlcoholSalesAcrossIowaCitiesbyLiquorCategories?:language=en-US&:sid=8E2B249C69A04EE3A78A866981F7B256-0:0&:redirect=auth&:display_count=n&:origin=viz_share_link

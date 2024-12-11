@@ -221,7 +221,7 @@ Higher income may facilitate increased alcohol consumption, but this is not defi
 
 ![Regression Model](images/Regression_Model.png)
 
-This regression model predicts ‘sale.dollars’ based on three key socioeconomic variables:
+This regression model predicts `sale.dollars` based on three key socioeconomic variables:
 `high.school`: The percentage or level of high school education in the population.
 `bachelor`: The percentage or level of bachelor's degree attainment in the population.
 `unemployment`: The unemployment rate in each city.

@@ -108,6 +108,21 @@ The correlation coefficient between alcohol consumption and education level (bac
 
 This figure shows the sales rankings for different alcohol categories in Iowa. Whiskey is the best-selling alcohol category with sales of over $92,158,837, indicating a significant preference for whiskey among Iowa residents. Comparatively, Gin, Distilled Spirit, and Amaretto had lower sales. This analytics data can guide liquor sellers in their stocking strategies. This data can be combined with the unit price of liquor to explore the impact of price factors on Iowa residents' choices of liquor, as well as to analyze incomes in different cities.
 
+### Geographical Relationship Between Alcohol Consumption Across Iowa Cities
+![Alcohol_Sales Across_Iowa_Cities_by_Liquor_Categories](images/Alcohol_Sales_AcrossCities_byCategories.png)
+
+A map was created to explore potential geographical relationship with alcohol consumption across Iowa cities. We focused on how the total alcohol sales in dollars may vary across locations. For visualizing purposes, cities were marked and differentiated based on total sales, varying by sizes and colors of circles. A darker and larger size indicated a higher sales. Additionally, we filtered only top 10 cities with highest sales for a more focused comparison.
+
+The map revealed a distinct geographical trends: cities in the Central-Southern (e.g., Des Moines) and Eastern Iowa (e.g., Cedar Rapids) have highest alcohol sales among Top 10 cities. This pattern implied a higher likelihood to consume alcohol in these cities and/or regions. Contrarily, cities located in Western Iowa (e.g., Sioux City) have relatively overall lower sales, implied a lower likelihood or level to consume alcohol.
+
+One possible reasons behind such difference could be population density: cities in central areas are likely to have higher populations compared to other less densely populated cities, which contributed to a higher total alcohol sales for having greater amount of alcohol consumers. For example, Des Moines had over 20,0000 residents, which considered as moderate-large. Furthermore, urbanized cities may have higher density of bars, restaurants, and liquor stores, offering places to purchase alcohols. Finally, more job opening opportunities are in more urbanized cities often associated with higher incomes that enable residents to afford alcohol consumption. These combined reasons together explain differences in sales across Iowa.
+
+![Totalsaletop10](images/Total_Sale_Top10.jpg)
+
+This figure shows the total sales of each type of alcohol product in different cities in Iowa, categorized by type of alcohol. It can be noticed that Des Moines has significantly higher alcohol sales than other cities, suggesting that it may be a major center for alcohol consumption in Iowa. Its economic conditions may be favorable and may attract more consumption. Other cities such as Cedar Rapids and Davenport also have higher sales, but much lower than Des Moines.This supports the previous map's point.
+
+Vodka and Whisky have large market shares in most cities, suggesting that these categories may be popular choices across all racial and income groups. Specific categories such as Tequila and Rum have relatively low shares in some cities, suggesting that they may be associated with specific consumer groups or cultural preferences.
+
 ![Unitprice](images/Unit_Price.jpg)
 
 This figure shows the price ranking of alcohol categories per unit volume ($/liter); Distilled Spirits is the highest-priced category at $20.76 per unit volume, and Amaretto is the lowest-priced category at $8.85 per unit volume. Distilled Spirits, the most expensive wine, has the second lowest total sales, which could indicate that Iowa residents may not have a strong desire for alcohol, but Amaretto, the cheapest wine, has the lowest total sales, which could also indicate that Iowa residents may have a fair level of income and consumption, and wouldn't be able to save money by choosing the cheapest wine. The three highest sales are all in the $10-$15 per unit range, which can be considered the most acceptable range for alcohol prices among Iowa residents, a statistic that is helpful in guiding alcohol producers' pricing. The next analysis will analyze whether there is a relationship between consumers' educational income and the price of alcohol per unit by combining the city, income, and education. 
@@ -128,14 +143,6 @@ This figure shows the per capita consumption of alcohol among different races. I
 ![Per_Capita_Income_Race](images/Per_capita_IncomeRace.jpg)
 
 This figure shows a comparison of the per capita income of different racial groups in Iowa.The White group has the highest per capita income at $30,417.However, overall, there is not a great deal of difference in income between the races. Therefore, it can be assumed that alcohol consumption by race has little correlation with income. 
-
-### Geographical Relationship Between Alcohol Consumption Across Iowa Cities
-![Alcohol_Sales Across_Iowa_Cities_by_Liquor_Categories](images/Alcohol_Sales_AcrossCities_byCategories.png)
-A map was created to explore potential geographical relationship with alcohol consumption across Iowa cities. We focused on how the total alcohol sales in dollars may vary across locations. For visualizing purposes, cities were marked and differentiated based on total sales, varying by sizes and colors of circles. A darker and larger size indicated a higher sales. Additionally, we filtered only top 10 cities with highest sales for a more focused comparison.
-
-The map revealed a distinct geographical trends: cities in the Central-Southern (e.g., Des Moines) and Eastern Iowa (e.g., Cedar Rapids) have highest alcohol sales among Top 10 cities. This pattern implied a higher likelihood to consume alcohol in these cities and/or regions. Contrarily, cities located in Western Iowa (e.g., Sioux City) have relatively overall lower sales, implied a lower likelihood or level to consume alcohol.
-
-One possible reasons behind such difference could be population density: cities in central areas are likely to have higher populations compared to other less densely populated cities, which contributed to a higher total alcohol sales for having greater amount of alcohol consumers. For example, Des Moines had over 20,0000 residents, which considered as moderate-large. Furthermore, urbanized cities may have higher density of bars, restaurants, and liquor stores, offering places to purchase alcohols. Finally, more job opening opportunities are in more urbanized cities often associated with higher incomes that enable residents to afford alcohol consumption. These combined reasons together explain differences in sales across Iowa.
 
 ###  Alcohol Consumption in Average Sales Across Racial Groups
 We also looked into how alcohol consumption, measured by average sales, varies across racial groups in Iowa cities. To explore, we plotted sales per resident against the percentage of specific racial group within cities (obtained by sales in dollars/population, for each city). The dataset we used is `data.clean.2`, which aggregated total sales and volume across all liquor categories summarized for each city.

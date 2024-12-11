@@ -253,10 +253,10 @@ Residual Variability: The residual standard error is high relative to the coeffi
 
 ### Closure and Research Questions
 
-#### *Economic and Socio-Demographic Determinants: *####
+#### Economic and Socio-Demographic Determinants: ####
 Alcohol consumption shows weak correlations with education, income, and unemployment. Higher bachelor's degree attainment is slightly associated with increased alcohol spending, while income and unemployment show negligible direct effects.
 
-####*Racial Group Analysis:*#### 
+#### Racial Group Analysis:#### 
 Black and Asian residents have higher per capita alcohol consumption than White residents. Patterns vary by city size; in small cities, consumption is weakly linked to racial percentages, while large cities exhibit more complex trends influenced by cultural and economic factors.
 
 ### Limitations
@@ -265,23 +265,25 @@ Black and Asian residents have higher per capita alcohol consumption than White 
   - The ACS dataset provides estimates of population characteristics, not exact counts, which introduces bias due to factors like data collection methods, context, and timing. Additionally, it lacks race-specific data for American Indian and Alaska Native populations, raising concerns about dataset representativeness.
   - Small proportions of some racial groups (e.g., Native Hawaiian/Other Pacific Islander) result in high data heterogeneity and variability in alcohol sales. This makes it challenging to identify consistent consumption trends for these groups. Sampling restrictions may also contribute to limited data availability.
 
-*Data Generalizability:* The analysis is confined to Iowa, limiting its applicability across other states or broader populations. The lack of comprehensive data collection across multiple regions weakens the ability to draw generalized conclusions.
+*Data Generalizability:* 
+  - The analysis is confined to Iowa, limiting its applicability across other states or broader populations. The lack of comprehensive data collection across multiple regions weakens the ability to draw generalized conclusions.
 
 *Variable Scope:*
   - Additional explanatory variables, such as cultural attitudes, stress levels, and alcohol pricing, were not included, potentially limiting the robustness of the regression models.
   - The low R-squared values in the regression analysis highlight the need for a more extensive set of predictors to better explain alcohol consumption patterns.
 
-*Validity of Analysis:* The nature of the dataset raises questions about the validity of measurements and whether the results fully address the research questions.
+*Validity of Analysis:* 
+  - The nature of the dataset raises questions about the validity of measurements and whether the results fully address the research questions.
 
 ### Recommendations for Future Work:
 
-**Expand Data Collection:** Include data from other U.S. states to improve representativeness and generalizability of findings. Focus on enhancing racial group representation by targeting underrepresented populations.
+*Expand Data Collection:* Include data from other U.S. states to improve representativeness and generalizability of findings. Focus on enhancing racial group representation by targeting underrepresented populations.
 
-**Incorporate Additional Variables:** Introduce cultural, psychological, and environmental factors into regression models to capture the complexity of alcohol consumption behaviors.
+*Incorporate Additional Variables:* Introduce cultural, psychological, and environmental factors into regression models to capture the complexity of alcohol consumption behaviors.
 
-**Refine Methodology:** Conduct longitudinal studies to better understand temporal changes in consumption patterns and improve predictive power.
+*Refine Methodology:* Conduct longitudinal studies to better understand temporal changes in consumption patterns and improve predictive power.
 
-**Address Data Limitations:**  Utilize datasets with precise counts rather than estimates and ensure coverage across all racial groups for more reliable and inclusive analysis.
+*Address Data Limitations:*  Utilize datasets with precise counts rather than estimates and ensure coverage across all racial groups for more reliable and inclusive analysis.
 
 
 

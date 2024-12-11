@@ -24,7 +24,7 @@ We use R, Python for data analysis and Tableau for visualization. We believe tha
 
 ## **Data Summary & Data Cleaning**
 -  **Iowa Liquor Sales:** Collected by the Iowa Department of Revenue, this dataset includes alcohol sales data from January 1, 2012, categorized by product type, date of purchase, alcohol type, and store location.
--  **American Community Survey (ACS) Data:** Contains city-level data onunemployment rates, income levels, education levels, and racial demographics. Thesewill be used to examine alcohol consumption patterns in relation to socioeconomicfactors.
+-  **American Community Survey (ACS) Data:** Contains city-level data onunemployment rates, income levels, education levels, and racial demographics. These will be used to examine alcohol consumption patterns in relation to socioeconomic factors.
 
 The dataset includes detailed sales information, such as average sales and sales volume for various liquor categories, as well as socioeconomic indicators such as income, education level, demographics, and unemployment. These features enable multidimensional analysis of alcohol sales patterns, and analysis can include both sales performance and potential demographic drivers of liquor consumption.
 
@@ -48,7 +48,7 @@ The raw data was then aggregated using a custom function. This function calculat
 
 ### Descriptive statistics analysis
 
-#### Liquor category sales in coutry level
+#### Liquor category sales in county level
 <div align="center">
   <img src="images/Table_1_sales_coutry.png" alt="Table1" width="70%" height="70%" />
 </div>
@@ -70,7 +70,7 @@ The raw data was then aggregated using a custom function. This function calculat
 `Table 3` focuses on the data at the zip code level, which is the most detailed analysis perspective. At this level, the average and median sales of each category are lower than the city and county data. At the same time, the median sales of each category are significantly lower than the average, which also indicates that the distribution is right-skewed.
 
 
-#### Aggregated sales in coutry level
+#### Aggregated sales in county level
 <div align="center">
   <img src="images/Table_4_aggregated_sale_coutry.png" alt="Table4" width="90%" height="90%" />
 </div>
@@ -152,7 +152,7 @@ We added an interative filter to switch between "Large" vs "Small" cities. Polyn
 
 ![Sales Per Resident by_Black vs White Group](images/White&Black_vs_Sales.png)
 ![Sales Per Resident by_Asian Group](images/Sales_vs_Multi-racial_group.png)
-![Sales Per Resident by_Hawai Group](images/Sales_vs_Hawai.png)
+![Sales Per Resident by_Hawai Group](images/Sales_vs_Hawaii.png)
 
 Overall, we found that average alcohol sales are high where lower % of each racial group reside, especially for small cities. This pattern was found in most racial groups, supported the observations that highlight points for average sales > $400 clusttered at the left side of the figures. Nevertheless, for White group, highest average sales occured where higher % of racial residents live. 
 

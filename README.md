@@ -221,17 +221,20 @@ Higher income may facilitate increased alcohol consumption, but this is not defi
 
 ![Regression Model](images/Regression_Model.png)
 
+
 This regression model predicts `sale.dollars` based on three key socioeconomic variables:
-`high.school`: The percentage or level of high school education in the population.
-`bachelor`: The percentage or level of bachelor's degree attainment in the population.
-`unemployment`: The unemployment rate in each city.
+
+- `high.school`: The percentage or level of high school education in the population.
+- `bachelor`: The percentage or level of bachelor's degree attainment in the population.
+- `unemployment`: The unemployment rate in each city.
+
 
 All predictors in the model are statistically significant, with p-values less than 0.001. However, the model exhibits limited explanatory power, as reflected by a multiple R-squared value of only 4.97%. This indicates that just 4.97% of the variation in `sale.dollars` is explained by the included variables. Additionally, the residuals, which measure the differences between predicted and actual sale dollars, show a wide range, signaling substantial variability in the model’s predictions.
 The intercept, estimated at 662,941, represents the expected value of `sale.dollars` when all predictors are zero. While this is statistically significant, it lacks real-world applicability, as zero values for all predictors are highly unlikely.
 
-`high.school`: The model reveals a negative correlation between high school education levels and `sale.dollars`, with each 1% increase in high school attainment associated with a $9,252 decrease in `sale.dollars`. This counterintuitive finding suggests that high school education alone may not substantially enhance income or consumer spending. Further investigation is needed to identify the factors driving this relationship.
-`bachelor`: Bachelor's degree attainment has the most substantial positive effect on `sale.dollars`, with a 1% increase in bachelor's degree levels linked to a $9,381 rise in `sale.dollars`. This underscores the economic advantages of higher education and its significant impact on consumer spending.
-`unemployment`: Surprisingly, higher unemployment rates are positively associated with `sale.dollars`, with a 1% increase in unemployment linked to a $13,645 rise in `sale.dollars`. This unexpected relationship could be influenced by contextual factors, such as increased government spending during economic downturns or changes in consumer behavior during periods of economic hardship.
+- `high.school`: The model reveals a negative correlation between high school education levels and `sale.dollars`, with each 1% increase in high school attainment associated with a $9,252 decrease in `sale.dollars`. This counterintuitive finding suggests that high school education alone may not substantially enhance income or consumer spending. Further investigation is needed to identify the factors driving this relationship.
+- `bachelor`: Bachelor's degree attainment has the most substantial positive effect on `sale.dollars`, with a 1% increase in bachelor's degree levels linked to a $9,381 rise in `sale.dollars`. This underscores the economic advantages of higher education and its significant impact on consumer spending.
+- `unemployment`: Surprisingly, higher unemployment rates are positively associated with `sale.dollars`, with a 1% increase in unemployment linked to a $13,645 rise in `sale.dollars`. This unexpected relationship could be influenced by contextual factors, such as increased government spending during economic downturns or changes in consumer behavior during periods of economic hardship.
 
 Low R-squared Value: The model’s low R-squared value highlights its limited predictive power, indicating that critical variables influencing `sale.dollars` may not be included in the model.
 Residual Variability: The residual standard error is high relative to the coefficients, reflecting substantial variability in the data. This diminishes the model’s reliability and indicates that its predictions may lack precision.

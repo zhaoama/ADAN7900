@@ -183,25 +183,6 @@ Generally, cities had a higher percentage of population who completed high schoo
 
 However, both education levels did not do well in predicting alcohol consumption patterns because of the scattered data points, and did not vary significantly in terms of average sales between the two educational levels. This lack of understanding again suggested a consideration of including other possible explanatory factors, such as risk education on alcohol consumption, cultural factors, employment rate, to fully understand such complex patterns. We may also need a larger sample size (e.g., outside of Iowa) to be confident in observing difference in alcohol consumptions within each group. One study by Rosoff et al.(2021) provided some initial insights: their study based on ~780,000 participants concluded that educational attainment had important impact on alcohol consumption patterns & explain further health outcomes. Thus, additional relevant variables (e.g., resident features) would be helpful for gaining deeper insights in our research interest.
 
-### Regression Predicting Total Sales ($) Based on Education Levels and Unemployment Rate
-
-![Regression Model](images/Regression_Model.png)
-
-This regression model predicts ‘sale.dollars’ based on three key socioeconomic variables:
-‘high.school’: The percentage or level of high school education in the population.
-‘bachelor’: The percentage or level of bachelor's degree attainment in the population.
-‘unemployment’: The unemployment rate in each city.
-
-All predictors in the model are statistically significant, with p-values less than 0.001. However, the model exhibits limited explanatory power, as reflected by a multiple R-squared value of only 4.97%. This indicates that just 4.97% of the variation in ‘sale.dollars’ is explained by the included variables. Additionally, the residuals, which measure the differences between predicted and actual sale dollars, show a wide range, signaling substantial variability in the model’s predictions.
-The intercept, estimated at 662,941, represents the expected value of ‘sale.dollars’ when all predictors are zero. While this is statistically significant, it lacks real-world applicability, as zero values for all predictors are highly unlikely.
-
-‘high.school’: The model reveals a negative correlation between high school education levels and ‘sale.dollars’, with each 1% increase in high school attainment associated with a $9,252 decrease in ‘sale.dollars’. This counterintuitive finding suggests that high school education alone may not substantially enhance income or consumer spending. Further investigation is needed to identify the factors driving this relationship.
-‘bachelor’: Bachelor's degree attainment has the most substantial positive effect on ‘sale.dollars’, with a 1% increase in bachelor's degree levels linked to a $9,381 rise in ‘sale.dollars’. This underscores the economic advantages of higher education and its significant impact on consumer spending.
-‘unemployment’: Surprisingly, higher unemployment rates are positively associated with ‘sale.dollars’, with a 1% increase in unemployment linked to a $13,645 rise in ‘sale.dollars’. This unexpected relationship could be influenced by contextual factors, such as increased government spending during economic downturns or changes in consumer behavior during periods of economic hardship.
-
-Low R-squared Value: The model’s low R-squared value highlights its limited predictive power, indicating that critical variables influencing ‘sale.dollars’ may not be included in the model.
-Residual Variability: The residual standard error is high relative to the coefficients, reflecting substantial variability in the data. This diminishes the model’s reliability and indicates that its predictions may lack precision.
-
 
 ### Correlation of Alcohol Consumption with Unemployment and Education Levels
 ![Correlation of Alcohol Consumption with Unemployment and Education Levels](https://github.com/user-attachments/assets/ece66659-5f6d-4cd5-9d3f-94f100420d00)
@@ -236,7 +217,24 @@ Clusters are labeled based on income distribution:
 
 Higher income may facilitate increased alcohol consumption, but this is not definitive without further investigation. Cultural and Social also have impactes, variations in cultural norms, social attitudes, and alcohol availability could also impact consumption patterns. While the plot shows correlation, it does not establish causation. Other factors might influence both income and alcohol consumption.
 
+### Socioeconomic Sales Predictor
 
+![Regression Model](images/Regression_Model.png)
+
+This regression model predicts ‘sale.dollars’ based on three key socioeconomic variables:
+`high.school`: The percentage or level of high school education in the population.
+`bachelor`: The percentage or level of bachelor's degree attainment in the population.
+`unemployment`: The unemployment rate in each city.
+
+All predictors in the model are statistically significant, with p-values less than 0.001. However, the model exhibits limited explanatory power, as reflected by a multiple R-squared value of only 4.97%. This indicates that just 4.97% of the variation in `sale.dollars` is explained by the included variables. Additionally, the residuals, which measure the differences between predicted and actual sale dollars, show a wide range, signaling substantial variability in the model’s predictions.
+The intercept, estimated at 662,941, represents the expected value of `sale.dollars` when all predictors are zero. While this is statistically significant, it lacks real-world applicability, as zero values for all predictors are highly unlikely.
+
+`high.school`: The model reveals a negative correlation between high school education levels and `sale.dollars`, with each 1% increase in high school attainment associated with a $9,252 decrease in `sale.dollars`. This counterintuitive finding suggests that high school education alone may not substantially enhance income or consumer spending. Further investigation is needed to identify the factors driving this relationship.
+`bachelor`: Bachelor's degree attainment has the most substantial positive effect on `sale.dollars`, with a 1% increase in bachelor's degree levels linked to a $9,381 rise in `sale.dollars`. This underscores the economic advantages of higher education and its significant impact on consumer spending.
+`unemployment`: Surprisingly, higher unemployment rates are positively associated with `sale.dollars`, with a 1% increase in unemployment linked to a $13,645 rise in `sale.dollars`. This unexpected relationship could be influenced by contextual factors, such as increased government spending during economic downturns or changes in consumer behavior during periods of economic hardship.
+
+Low R-squared Value: The model’s low R-squared value highlights its limited predictive power, indicating that critical variables influencing `sale.dollars` may not be included in the model.
+Residual Variability: The residual standard error is high relative to the coefficients, reflecting substantial variability in the data. This diminishes the model’s reliability and indicates that its predictions may lack precision.
 
 ## **Conclusion**
 

@@ -253,7 +253,7 @@ Residual Variability: The residual standard error is high relative to the coeffi
 
 ### Closure and Research Questions
 
-*Economic and Socio-Demographic Determinants:* Alcohol consumption shows weak correlations with education, income, and unemployment. Higher bachelor's degree attainment is slightly associated with increased alcohol spending, while income and unemployment show negligible direct effects.
+####Economic and Socio-Demographic Determinants:#### Alcohol consumption shows weak correlations with education, income, and unemployment. Higher bachelor's degree attainment is slightly associated with increased alcohol spending, while income and unemployment show negligible direct effects.
 
 *Racial Group Analysis:* Black and Asian residents have higher per capita alcohol consumption than White residents. Patterns vary by city size; in small cities, consumption is weakly linked to racial percentages, while large cities exhibit more complex trends influenced by cultural and economic factors.
 

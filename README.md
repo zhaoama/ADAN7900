@@ -252,32 +252,41 @@ Lastly, additional variables should be included in future regression models.
 
 **1. Government**
 -  Strengthening alcohol sales and consumption tax policies
+
 The study found that alcohol consumption is concentrated in middle-income groups and that price has an impact on consumption. The government can increase consumption tax on specific types of alcohol products (e.g., whisky and vodka) while keeping the tax rate on lower-priced alcohol (e.g., Amaretto) relatively low in order to guide residents to consume more rationally.
 
 -  Increase Regulation in High-Consumption Cities
+
 Some cities consume significantly more alcohol than others. These cities could consider implementing stricter sales licensing policies that limit when or where alcohol can be sold to reduce potential overconsumption.
 
 -  Supporting local economic development
+
 Lower alcohol consumption in the western region may be related to economic development and population density. Governments can increase local consumption by developing the economy, attracting employment opportunities, and raising income levels.
 
 **2. Public Health Organizations**
 -  Implement targeted alcohol education
+
 Data show that alcohol consumption may be influenced by cultural habits and education level. Health organizations should enhance risk education in less educated areas to emphasize the health consequences of excessive alcohol consumption while promoting healthy lifestyles.
 
 -  Provide mental health support  
+
 Consumption data suggests that some ethnic groups (e.g. BAME) may have higher levels of alcohol consumption, which may be related to stress and socio-cultural factors. Health organizations can set up counseling services to help residents manage stress and develop healthy coping styles.
 
 - Developing community activities  
+
 In smaller cities with limited recreational opportunities, residents may rely more on alcohol consumption as a way to socialize. Health organizations can promote healthy community activities in these cities, such as sporting events or family activities, to provide more alternatives to alcohol consumption.
 
 **3.Alcohol Merchants**
 -  Optimize product pricing and positioning  
+
 Research shows that residents are more likely to purchase alcohol products priced in the $10-$15 range. Alcohol traders can optimize their pricing strategy by launching more products within this price range.
 
 -  Optimize Supply Chain for City Characteristics
+
 For high-consumption cities, stock up on whisky and vodka. And in smaller cities or the West, optimize inventory for low-demand markets.
 
 -  Focus on the preferences of specific ethnic or cultural groups
+
 Data shows that there is some variation in the choice of alcohol product categories by race. Alcohol merchants can target specific racial groups with alcohol products that are more in line with cultural preferences.
 
 ## **References**

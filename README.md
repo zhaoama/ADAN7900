@@ -186,14 +186,14 @@ However, both education levels did not do well in predicting alcohol consumption
 
 
 ### Correlation of Alcohol Consumption with Unemployment and Education Levels
-![Correlation of Alcohol Consumption with Unemployment and Education Levels](https://github.com/user-attachments/assets/ece66659-5f6d-4cd5-9d3f-94f100420d00)
+![Correlation of alcohol concumption with unemployment and education level](images/Correlation_of_Alcohol_Consumption_with_Unemployment_and_Education_Levels.png)
 
 
 This correlation heatmap highlights the relationship between alcohol consumption and various socioeconomic factors. For alcohol consumption and education, there is a weak negative correlation with high school attainment (-0.01) and a weak positive correlation with bachelor’s degree attainment (0.18). These findings suggest that higher education levels might be slightly associated with increased alcohol spending. Regarding unemployment, there is a weak positive correlation with alcohol consumption (0.05), indicating that unemployment may not have a strong direct relationship with alcohol consumption. Unemployment also negatively correlates with bachelor’s degree attainment (-0.22) and high school attainment (-0.14), implying that higher unemployment rates are associated with lower education levels. Lastly, high school attainment and bachelor’s degree attainment show a moderate positive correlation (0.47), which aligns with the expectation that higher educational achievements often build upon prior educational milestones.
 
 
 ### Alcohol Consumption and Racial/Economic Factors
-![Alcohol Consumption and Racial/Economic Factors](https://github.com/user-attachments/assets/ce8eb791-26dc-4760-9aea-8cec2db852be)
+![Alcohol Consumption and Racial/Economic Factors](images/Alcohol_Consumption_and_Racial_Economic_Factors.png)
 
 This heatmap illustrates the relationship between alcohol consumption and racial/economic factors. To analyze population proportions by race, we calculated each race's proportion within a city by dividing the racial population count by the total population of that city. Alcohol consumption shows a moderate positive correlation with the proportion of Black populations (0.35) and Asian populations (0.24), as well as weak positive correlations with Native Hawaiian/Other Pacific Islander populations (0.03) and American Indian/Alaska Native populations (0.02). Conversely, there is a moderate negative correlation with the proportion of White populations (-0.31), suggesting that areas with higher alcohol consumption may spend relatively less in predominantly White communities. Interracial population correlations reveal strong negative relationships between the proportions of White and Black populations (-0.72) and White and Asian populations (-0.73), indicating demographic exclusivity in certain regions. Correlations between unemployment and racial proportions are very weak (ranging from -0.11 to 0.13), suggesting minimal direct racial disparity in unemployment rates across these groups within the dataset.
 
@@ -201,7 +201,7 @@ Overall, alcohol spending appears more closely correlated with racial compositio
 
 ### Clusters of Cities Based on Alcohol Consumption and Socioeconomic Factors
 
-![Screenshot 2024-12-10 at 18 12 48](https://github.com/user-attachments/assets/35f922d8-d177-4fe1-ba71-aa16660e24c5)
+![CLuster Plot of Cities Based on Alcohol Consumption and Socioeconomic Factors](images/Clusters_of_Cities_Based_on_Alcohol_Consumption_and_Socioeconomic_Factors.png)
 
 This clustering plot highlights a positive correlation between income and alcohol consumption across cities, using the KMeans clustering algorithm to group cities based on similarities in selected variables such as income, alcohol expenditure, and unemployment. The clustering process employs StandardScaler to normalize the data, ensuring equal contribution from all features, and utilizes Euclidean distance to assign cities to clusters in the scaled feature space.
 The analysis categorizes cities into three clusters based on their income and alcohol consumption patterns:

@@ -11,6 +11,8 @@ $\color{NavyBlue}{Chenyi\ Wu}$
 
 $\color{NavyBlue}{Yuhan\ Zhao}$
 
+## **[Group 4 Course Project Recording](https://github.com/zhaoama/ADAN7900/blob/main/Analyzing_Alcohol.mp4)**
+
 ## **Tableau Workbook** 
 https://public.tableau.com/views/FinalAlcoholSalesvs_IncomeEducationRacialGroups/AlcoholSalesAcrossIowaCitiesbyLiquorCategories?:language=en-US&:sid=8E2B249C69A04EE3A78A866981F7B256-0:0&:redirect=auth&:display_count=n&:origin=viz_share_link
 
